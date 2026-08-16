@@ -75,7 +75,7 @@ Clone the repository to a persistent location on ubot-server, configure a reposi
 The installer:
 
 - links `modela-model-harvester` into `~/.hermes/skills/`
-- links the deterministic refresh script into `~/.hermes/scripts/`
+- installs an in-directory wrapper for the deterministic refresh script in `~/.hermes/scripts/`
 - creates `Modela daily model harvest` with `hermes cron`
 - schedules it for `03:15` every day using the Hermes host timezone
 - uses Hermes `--no-agent` mode, so daily runs consume no LLM tokens
