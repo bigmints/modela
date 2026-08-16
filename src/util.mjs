@@ -102,8 +102,3 @@ export function parseBoolean(value, fallback = false) {
   if (value === undefined) return fallback;
   return ["1", "true", "yes", "on"].includes(String(value).toLowerCase());
 }
-
-export function parsePositiveInteger(value, fallback) {
-  const parsed = Number.parseInt(value, 10);
-  return Number.isInteger(parsed) && parsed > 0 ? parsed : fallback;
-}

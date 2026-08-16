@@ -2,7 +2,7 @@
   "name": "@bigmints/modela",
   "version": "0.1.0",
   "private": true,
-  "description": "Deterministic catalogue of free hosted, open-weight, and local AI models",
+  "description": "Deterministic catalogue of free hosted OpenRouter models",
   "type": "module",
   "bin": {
     "modela": "./src/cli.mjs"

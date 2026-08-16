@@ -10,9 +10,6 @@ import {
 
 const ACCESS_TYPES = new Set([
   "hosted_free",
-  "free_tier",
-  "local",
-  "open_weights",
   "paid",
   "unknown"
 ]);

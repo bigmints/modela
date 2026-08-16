@@ -7,8 +7,6 @@ import {
   updateCatalogue,
   validatePublicFiles
 } from "./catalog.mjs";
-import { harvestHuggingFace } from "./sources/huggingface.mjs";
-import { harvestManual } from "./sources/manual.mjs";
 import { harvestOpenRouter } from "./sources/openrouter.mjs";
 import { parseBoolean, readJson } from "./util.mjs";
 
@@ -42,8 +40,6 @@ function parseArguments(argv) {
 async function harvest(config) {
   const jobs = [];
   if (config.openrouter?.enabled) jobs.push(harvestOpenRouter(config.openrouter));
-  if (config.huggingface?.enabled) jobs.push(harvestHuggingFace(config.huggingface));
-  if (config.manual?.enabled) jobs.push(harvestManual(config.manual, ROOT));
   if (jobs.length === 0) throw new Error("No Modela sources are enabled");
   return Promise.all(jobs);
 }

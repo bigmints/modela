@@ -3,22 +3,5 @@
     "enabled": true,
     "url": "https://openrouter.ai/api/v1/models",
     "include_paid": false
-  },
-  "huggingface": {
-    "enabled": true,
-    "url": "https://huggingface.co/api/models",
-    "limit_per_task": 200,
-    "tasks": [
-      "text-to-speech",
-      "automatic-speech-recognition",
-      "feature-extraction",
-      "sentence-similarity",
-      "text-to-image",
-      "text-to-video"
-    ]
-  },
-  "manual": {
-    "enabled": true,
-    "path": "config/manual-models.json"
   }
 }

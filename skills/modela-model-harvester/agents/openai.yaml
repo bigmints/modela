@@ -1,4 +1,4 @@
 interface:
   display_name: "Modela Model Harvester"
-  short_description: "Harvest and publish free AI model catalogues"
+  short_description: "Harvest and publish free OpenRouter models"
   default_prompt: "Use $modela-model-harvester to refresh and inspect the Modela catalogue."

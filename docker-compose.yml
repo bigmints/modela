@@ -6,8 +6,6 @@ services:
     volumes:
       - .:/app
     environment:
-      HF_TOKEN: "${HF_TOKEN:-}"
-      MODELA_HF_LIMIT_PER_TASK: "${MODELA_HF_LIMIT_PER_TASK:-200}"
       MODELA_INCLUDE_PAID_OPENROUTER: "${MODELA_INCLUDE_PAID_OPENROUTER:-false}"
       MODELA_MAX_DROP_RATIO: "${MODELA_MAX_DROP_RATIO:-0.5}"
     restart: "no"

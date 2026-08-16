@@ -51,7 +51,7 @@
           "required": ["type"],
           "properties": {
             "type": {
-              "enum": ["hosted_free", "free_tier", "local", "open_weights", "paid", "unknown"]
+              "enum": ["hosted_free", "paid", "unknown"]
             }
           }
         },

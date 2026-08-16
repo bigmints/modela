@@ -12,8 +12,6 @@ catalogue_files=(
   public/data/hosted-free.json
   public/data/image-generation.json
   public/data/index.json
-  public/data/local-models.json
-  public/data/open-weights.json
   public/data/transcription.json
   public/data/tts.json
   public/data/video-generation.json

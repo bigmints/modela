@@ -1,11 +1,11 @@
 ---
 name: modela-model-harvester
-description: Harvest, classify, validate, diff, and publish Modela catalogues of free hosted, open-weight, and local chat, TTS, transcription, embedding, image-generation, video-generation, and audio-generation models. Use for Modela refreshes, model discovery, catalogue status, source failures, classification review, and GitHub Pages publishing.
+description: Harvest, classify, validate, diff, and publish Modela catalogues of hosted OpenRouter chat, TTS, transcription, embedding, image-generation, video-generation, and audio-generation models. Use for OpenRouter catalogue refreshes, free-model discovery, Modela status, source failures, classification review, and GitHub Pages publishing.
 ---
 
 # Modela Model Harvester
 
-Use the repository's deterministic CLI. Do not classify models from intuition or rewrite catalogue JSON manually.
+Use the repository's deterministic CLI. Harvest OpenRouter only. Do not add Hugging Face repositories, local services, or undeployed weights.
 
 ## Locate the repository
 
@@ -23,15 +23,14 @@ Run `scripts/publish.sh` only when publication is requested or when executing th
 
 ## Classification rules
 
-- Treat `hosted_free`, `free_tier`, `local`, and `open_weights` as distinct access types.
-- Do not call a model free merely because its ID ends in `:free`; verify all published price fields are zero.
-- Do not call audio-input models transcription models without provider task or transcription evidence.
-- Do not call audio-output models TTS models without provider task or speech-synthesis evidence.
-- Treat Hugging Face discoveries as open weights, not hosted-free inference.
-- Preserve manual entries in `config/manual-models.json`; validate them against `schemas/catalog.schema.json`.
+- Treat `hosted_free`, `paid`, and `unknown` as distinct access types.
+- Do not call a model free merely because its ID ends in `:free`; verify every published price field is zero.
+- Do not call audio-input models transcription models without transcription evidence.
+- Do not call audio-output models TTS models without speech-synthesis evidence.
+- Preserve OpenRouter IDs exactly as published.
 
 ## Failure handling
 
-Preserve the last known-good public directory when any source or validation step fails. Do not use `--allow-large-drop` unless the removed-model list was reviewed and the drop is expected.
+Preserve the last known-good public directory when fetching or validation fails. Do not use `--allow-large-drop` unless the removed-model list was reviewed and the drop is expected.
 
-Report source counts, total models, added/removed/changed counts, whether files changed, and whether publication succeeded.
+Report the OpenRouter discovered and accepted counts, added/removed/changed counts, whether files changed, and whether publication succeeded.

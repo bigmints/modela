@@ -1,21 +1,15 @@
 # Modela
 
-Modela builds a public, machine-readable catalogue of AI models without conflating free APIs, free tiers, local inference, and downloadable open weights.
+Modela publishes a deterministic catalogue of hosted OpenRouter models. By default it includes only models whose published prompt, completion, and auxiliary prices are all zero.
 
-It currently harvests:
-
-- OpenRouter's public catalogue, retaining zero-priced hosted models by default
-- Hugging Face model metadata for TTS, transcription, embeddings, image generation, and video generation
-- Explicit local or provider-specific entries from `config/manual-models.json`
+It does not catalogue Hugging Face repositories, local models, or undeployed open weights.
 
 ## Published files
 
-GitHub Pages serves the complete catalogue and focused feeds from `public/data/`:
+GitHub Pages serves the complete catalogue and capability feeds from `public/data/`:
 
 - `catalog.json`
 - `hosted-free.json`
-- `open-weights.json`
-- `local-models.json`
 - `chat.json`
 - `tts.json`
 - `transcription.json`
@@ -24,13 +18,15 @@ GitHub Pages serves the complete catalogue and focused feeds from `public/data/`
 - `video-generation.json`
 - `audio-generation.json`
 
-After Pages is enabled with GitHub Actions as its source, the site is available at:
+The site is available at:
 
 `https://bigmints.github.io/modela/`
 
 The complete JSON endpoint is:
 
 `https://bigmints.github.io/modela/data/catalog.json`
+
+Capability feeds can be empty when OpenRouter does not currently list a zero-priced model for that capability. Modela does not reinterpret audio understanding as transcription or general audio output as TTS.
 
 ## Run locally
 
@@ -47,58 +43,26 @@ Use `--dry-run` to fetch, classify, validate, and display a diff without replaci
 MODELA_UID="$(id -u)" MODELA_GID="$(id -g)" docker compose run --rm modela update --dry-run
 ```
 
-The harvester retries transient source failures, writes through a staging directory, rejects empty results, and refuses catalogue drops greater than 50% by default. A failed run leaves the published directory unchanged.
+The harvester retries transient failures, writes through a staging directory, rejects empty results, and refuses catalogue drops greater than 50% by default. A failed run leaves the published directory unchanged.
 
-## Access types
+## Free-model classification
 
-| Type | Meaning |
-|---|---|
-| `hosted_free` | The provider publishes zero prices for every relevant charge. |
-| `free_tier` | The provider offers a limited free allowance. |
-| `local` | The model runs on user-owned infrastructure without a per-request API fee. |
-| `open_weights` | The model is publicly downloadable and intended for self-hosting. |
-| `paid` | The provider publishes a positive price. |
-| `unknown` | The available metadata cannot establish cost. |
+A model is `hosted_free` only when:
 
-OpenRouter models are considered `hosted_free` only when prompt, completion, and any auxiliary published price fields are all zero. A `:free` suffix alone is not accepted as proof.
+- `pricing.prompt` is exactly zero
+- `pricing.completion` is exactly zero
+- every other published price field is zero
+- no variable or unknown negative price is present
 
-Hugging Face results are classified as `open_weights`, not hosted-free inference. Gated models are excluded. The default harvest keeps the 200 most-downloaded models per configured task; adjust `MODELA_HF_LIMIT_PER_TASK` if needed.
+An ID ending in `:free` is not sufficient by itself. This also captures zero-priced models that do not use the suffix.
 
-## Add local models
+Set `MODELA_INCLUDE_PAID_OPENROUTER=true` to include paid models for diagnostics. Paid models are excluded from normal publication.
 
-Add explicit entries to `config/manual-models.json`. Do not publish private endpoint addresses or credentials. A manual model follows the model definition in `schemas/catalog.schema.json`; for example:
+## Production use
 
-```json
-[
-  {
-    "provider": "gx10",
-    "id": "kokoro",
-    "name": "Kokoro TTS",
-    "description": "Locally hosted speech synthesis",
-    "capabilities": ["speech_synthesis"],
-    "input_modalities": ["text"],
-    "output_modalities": ["audio"],
-    "context_length": null,
-    "supported_parameters": [],
-    "access": {
-      "type": "local",
-      "pricing": null,
-      "limits": null
-    },
-    "classification": {
-      "basis": "manual_verification",
-      "confidence": "high"
-    },
-    "source": {
-      "catalogue": "manual",
-      "model_url": null
-    },
-    "metadata": {
-      "endpoint_compatibility": "openai.audio.speech"
-    }
-  }
-]
-```
+Entries are hosted OpenRouter model IDs, not downloadable weights. Applications still need an OpenRouter API key and should implement fallback routing because free models can be rate-limited, removed, or temporarily unavailable.
+
+Modela validates catalogue metadata. It does not make inference calls against every model and does not promise an availability SLA.
 
 ## Install on Hermes
 
@@ -124,19 +88,10 @@ hermes cron list --all
 hermes cron run <job-id>
 ```
 
-The daily script updates and validates the catalogue, commits only the known JSON output paths, and pushes the current branch. GitHub Pages deploys automatically after a push to `main`.
-
-## Manual Hermes usage
-
-The installed skill supports requests such as:
-
-- “Use modela-model-harvester to preview today's model changes.”
-- “Refresh Modela and publish it.”
-- “Why did the latest Modela harvest fail?”
-- “Add this verified local embedding model to Modela.”
+The daily script updates and validates the catalogue, commits only known JSON output paths, and pushes the current branch. A push to `main` triggers the GitHub Pages deployment.
 
 ## Configuration
 
 Source defaults live in `config/sources.json`. Optional environment variables are documented in `.env.example`.
 
-An optional `HF_TOKEN` raises Hugging Face API limits. OpenRouter's public models endpoint does not currently require an API key. Never commit provider tokens or GitHub credentials.
+OpenRouter's public models endpoint does not currently require an API key. Never commit OpenRouter or GitHub credentials.
