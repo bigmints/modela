@@ -1,0 +1,7379 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T18:01:54.233Z",
+  "catalogue_hash": "f1dd67c564eda2b48494bb1c7ef15a94a15ede30b7825e6d36b70811c36ceefe",
+  "model_count": 189,
+  "models": [
+    {
+      "provider": "huggingface",
+      "id": "AgentAnon/flux-klein-9b-Biglove-Collection",
+      "name": "AgentAnon/flux-klein-9b-Biglove-Collection",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/AgentAnon/flux-klein-9b-Biglove-Collection"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 45335,
+        "likes": 0,
+        "last_modified": "2026-07-24T19:20:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "AiWise/Juggernaut-XL-V9-GE-RDPhoto2-Lightning_4S",
+      "name": "AiWise/Juggernaut-XL-V9-GE-RDPhoto2-Lightning_4S",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/AiWise/Juggernaut-XL-V9-GE-RDPhoto2-Lightning_4S"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 20924,
+        "likes": 17,
+        "last_modified": "2024-12-26T02:07:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "alimama-creative/FLUX.1-Turbo-Alpha",
+      "name": "alimama-creative/FLUX.1-Turbo-Alpha",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 14118,
+        "likes": 641,
+        "last_modified": "2024-10-15T13:35:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "AlperKTS/Krea2_FP8",
+      "name": "AlperKTS/Krea2_FP8",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/AlperKTS/Krea2_FP8"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 53338,
+        "likes": 104,
+        "last_modified": "2026-07-02T17:55:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "AX1Y2JP/Krea-2-Turbo-INT8-ConvRot",
+      "name": "AX1Y2JP/Krea-2-Turbo-INT8-ConvRot",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/AX1Y2JP/Krea-2-Turbo-INT8-ConvRot"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 22187,
+        "likes": 16,
+        "last_modified": "2026-07-05T11:28:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Baraje/SexGod_NSFW_Female_Nudes_QWEN_Image_Edit_2511",
+      "name": "Baraje/SexGod_NSFW_Female_Nudes_QWEN_Image_Edit_2511",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Baraje/SexGod_NSFW_Female_Nudes_QWEN_Image_Edit_2511"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "artistic-2.0",
+        "downloads": 12611,
+        "likes": 25,
+        "last_modified": "2026-04-22T06:19:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "bench-labs/PixelModel-v6",
+      "name": "bench-labs/PixelModel-v6",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/bench-labs/PixelModel-v6"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 13556,
+        "likes": 18,
+        "last_modified": "2026-08-06T07:04:54.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ByteDance/Hyper-SD",
+      "name": "ByteDance/Hyper-SD",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ByteDance/Hyper-SD"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 53949,
+        "likes": 1347,
+        "last_modified": "2024-12-05T09:02:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ByteDance/SDXL-Lightning",
+      "name": "ByteDance/SDXL-Lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ByteDance/SDXL-Lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 95343,
+        "likes": 2178,
+        "last_modified": "2024-04-03T15:59:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cagliostrolab/animagine-xl-3.0",
+      "name": "cagliostrolab/animagine-xl-3.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cagliostrolab/animagine-xl-3.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 60860,
+        "likes": 775,
+        "last_modified": "2025-12-22T04:09:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cagliostrolab/animagine-xl-3.1",
+      "name": "cagliostrolab/animagine-xl-3.1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cagliostrolab/animagine-xl-3.1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 209587,
+        "likes": 726,
+        "last_modified": "2025-12-22T04:13:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cagliostrolab/animagine-xl-4.0",
+      "name": "cagliostrolab/animagine-xl-4.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cagliostrolab/animagine-xl-4.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 253229,
+        "likes": 484,
+        "last_modified": "2025-02-13T16:16:46.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "calcuis/sd3.5-large-gguf",
+      "name": "calcuis/sd3.5-large-gguf",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/calcuis/sd3.5-large-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 11799,
+        "likes": 71,
+        "last_modified": "2025-03-04T18:39:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "city96/FLUX.1-dev-gguf",
+      "name": "city96/FLUX.1-dev-gguf",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/city96/FLUX.1-dev-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 130617,
+        "likes": 1400,
+        "last_modified": "2024-08-18T08:14:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "city96/FLUX.1-schnell-gguf",
+      "name": "city96/FLUX.1-schnell-gguf",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/city96/FLUX.1-schnell-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 119239,
+        "likes": 346,
+        "last_modified": "2024-08-18T08:13:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "city96/Qwen-Image-gguf",
+      "name": "city96/Qwen-Image-gguf",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/city96/Qwen-Image-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 26184,
+        "likes": 293,
+        "last_modified": "2025-08-05T15:44:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "CompVis/stable-diffusion-v1-1",
+      "name": "CompVis/stable-diffusion-v1-1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/CompVis/stable-diffusion-v1-1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 43233,
+        "likes": 82,
+        "last_modified": "2023-07-05T16:18:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "CompVis/stable-diffusion-v1-4",
+      "name": "CompVis/stable-diffusion-v1-4",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/CompVis/stable-diffusion-v1-4"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 440024,
+        "likes": 7053,
+        "last_modified": "2023-08-23T21:15:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "crynux-network/sdxl-turbo",
+      "name": "crynux-network/sdxl-turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/crynux-network/sdxl-turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 53331,
+        "likes": 3,
+        "last_modified": "2025-07-23T02:37:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "crynux-network/stable-diffusion-v1-5",
+      "name": "crynux-network/stable-diffusion-v1-5",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/crynux-network/stable-diffusion-v1-5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 63628,
+        "likes": 1,
+        "last_modified": "2025-07-17T08:06:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cyberdelia/CyberRealistic",
+      "name": "cyberdelia/CyberRealistic",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cyberdelia/CyberRealistic"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 94958,
+        "likes": 91,
+        "last_modified": "2026-04-22T08:10:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cyberdelia/CyberRealisticPony",
+      "name": "cyberdelia/CyberRealisticPony",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cyberdelia/CyberRealisticPony"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 46756,
+        "likes": 119,
+        "last_modified": "2026-05-28T10:45:39.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cyberdelia/CyberRealisticXL",
+      "name": "cyberdelia/CyberRealisticXL",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cyberdelia/CyberRealisticXL"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 19288,
+        "likes": 38,
+        "last_modified": "2026-05-28T15:27:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "dataautogpt3/ProteusV0.2",
+      "name": "dataautogpt3/ProteusV0.2",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/dataautogpt3/ProteusV0.2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "gpl-3.0",
+        "downloads": 16156,
+        "likes": 147,
+        "last_modified": "2024-02-26T14:40:52.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "dataautogpt3/ProteusV0.3",
+      "name": "dataautogpt3/ProteusV0.3",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/dataautogpt3/ProteusV0.3"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "gpl-3.0",
+        "downloads": 16268,
+        "likes": 96,
+        "last_modified": "2024-02-12T18:58:10.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "diffusers/controlnet-canny-sdxl-1.0",
+      "name": "diffusers/controlnet-canny-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/diffusers/controlnet-canny-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 20566,
+        "likes": 534,
+        "last_modified": "2023-09-19T15:25:43.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "diffusers/controlnet-depth-sdxl-1.0",
+      "name": "diffusers/controlnet-depth-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/diffusers/controlnet-depth-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 21919,
+        "likes": 205,
+        "last_modified": "2024-04-24T01:31:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+      "name": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/diffusers/stable-diffusion-xl-1.0-inpainting-0.1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 181370,
+        "likes": 382,
+        "last_modified": "2023-09-03T16:36:39.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "digiplay/Photon_v1",
+      "name": "digiplay/Photon_v1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/digiplay/Photon_v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 41318,
+        "likes": 41,
+        "last_modified": "2024-05-18T19:02:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "diroverflo/FLux_Klein_9B_NSFW",
+      "name": "diroverflo/FLux_Klein_9B_NSFW",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/diroverflo/FLux_Klein_9B_NSFW"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 36695,
+        "likes": 52,
+        "last_modified": "2026-02-24T09:30:43.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic",
+      "name": "Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Disty0/FLUX.2-klein-4B-SDNQ-4bit-dynamic"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 40286,
+        "likes": 15,
+        "last_modified": "2026-03-27T17:26:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "duongve/NetaYume-Lumina-Image-2.0",
+      "name": "duongve/NetaYume-Lumina-Image-2.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/duongve/NetaYume-Lumina-Image-2.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 19661,
+        "likes": 72,
+        "last_modified": "2025-12-09T07:24:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "echarlaix/tiny-random-stable-diffusion-xl",
+      "name": "echarlaix/tiny-random-stable-diffusion-xl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/echarlaix/tiny-random-stable-diffusion-xl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 11721,
+        "likes": 1,
+        "last_modified": "2023-07-06T16:08:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "fancyfeast/bigaspv2-5",
+      "name": "fancyfeast/bigaspv2-5",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/fancyfeast/bigaspv2-5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 34854,
+        "likes": 46,
+        "last_modified": "2026-02-12T21:14:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "frankjoshua/novaAnimeXL_ilV140",
+      "name": "frankjoshua/novaAnimeXL_ilV140",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/frankjoshua/novaAnimeXL_ilV140"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 210796,
+        "likes": 3,
+        "last_modified": "2025-12-13T02:34:13.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Gazingstars123/Anima-2.9B",
+      "name": "Gazingstars123/Anima-2.9B",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Gazingstars123/Anima-2.9B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 20860,
+        "likes": 213,
+        "last_modified": "2026-08-15T07:58:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "gokaygokay/Krea-2-Realism-LoRA",
+      "name": "gokaygokay/Krea-2-Realism-LoRA",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/gokaygokay/Krea-2-Realism-LoRA"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 16391,
+        "likes": 82,
+        "last_modified": "2026-07-31T23:14:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Granddyser/flux-klein-9b-Biglove-Collection",
+      "name": "Granddyser/flux-klein-9b-Biglove-Collection",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Granddyser/flux-klein-9b-Biglove-Collection"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 72518,
+        "likes": 45,
+        "last_modified": "2026-07-30T16:04:41.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "GraydientPlatformAPI/picx-real",
+      "name": "GraydientPlatformAPI/picx-real",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/GraydientPlatformAPI/picx-real"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail",
+        "downloads": 54413,
+        "likes": 0,
+        "last_modified": "2024-01-06T13:23:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "h94/IP-Adapter-FaceID",
+      "name": "h94/IP-Adapter-FaceID",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/h94/IP-Adapter-FaceID"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 213499,
+        "likes": 1876,
+        "last_modified": "2024-04-16T08:53:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "HiDream-ai/HiDream-I1-Fast",
+      "name": "HiDream-ai/HiDream-I1-Fast",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/HiDream-ai/HiDream-I1-Fast"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 102990,
+        "likes": 107,
+        "last_modified": "2025-06-16T16:18:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "huanngzh/mv-adapter",
+      "name": "huanngzh/mv-adapter",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/huanngzh/mv-adapter"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12093,
+        "likes": 63,
+        "last_modified": "2025-06-13T13:54:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ifmylove2011/girlslike",
+      "name": "ifmylove2011/girlslike",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ifmylove2011/girlslike"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15585,
+        "likes": 32,
+        "last_modified": "2026-08-02T11:38:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ifmylove2011/girlslike-krea2",
+      "name": "ifmylove2011/girlslike-krea2",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ifmylove2011/girlslike-krea2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12790,
+        "likes": 29,
+        "last_modified": "2026-08-15T08:43:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ifmylove2011/girlslike-zimage",
+      "name": "ifmylove2011/girlslike-zimage",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ifmylove2011/girlslike-zimage"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 27952,
+        "likes": 47,
+        "last_modified": "2026-08-16T03:00:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "InstantX/InstantID",
+      "name": "InstantX/InstantID",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/InstantX/InstantID"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 56462,
+        "likes": 872,
+        "last_modified": "2024-01-22T09:43:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "jayn7/Z-Image-Turbo-GGUF",
+      "name": "jayn7/Z-Image-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/jayn7/Z-Image-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 33071,
+        "likes": 383,
+        "last_modified": "2025-12-05T13:03:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "jd09876/miaomiao-harem",
+      "name": "jd09876/miaomiao-harem",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/jd09876/miaomiao-harem"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 12764,
+        "likes": 2,
+        "last_modified": "2025-01-11T17:34:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/amanatsu-illustrious-v11-sdxl",
+      "name": "John6666/amanatsu-illustrious-v11-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/amanatsu-illustrious-v11-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 130757,
+        "likes": 3,
+        "last_modified": "2025-03-13T07:59:48.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/autismmix-sdxl-autismmix-pony-sdxl",
+      "name": "John6666/autismmix-sdxl-autismmix-pony-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/autismmix-sdxl-autismmix-pony-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 16632,
+        "likes": 5,
+        "last_modified": "2024-09-20T21:52:38.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/diving-illustrious-real-asian-v50-sdxl",
+      "name": "John6666/diving-illustrious-real-asian-v50-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/diving-illustrious-real-asian-v50-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 97409,
+        "likes": 0,
+        "last_modified": "2025-09-19T23:46:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/hassaku-xl-illustrious-v31-sdxl",
+      "name": "John6666/hassaku-xl-illustrious-v31-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/hassaku-xl-illustrious-v31-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 60326,
+        "likes": 2,
+        "last_modified": "2025-10-06T10:48:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/janku-v5-nsfw-trained-noobai-rou-wei-illustrious-xl-v50-sdxl",
+      "name": "John6666/janku-v5-nsfw-trained-noobai-rou-wei-illustrious-xl-v50-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/janku-v5-nsfw-trained-noobai-rou-wei-illustrious-xl-v50-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 90680,
+        "likes": 12,
+        "last_modified": "2025-08-31T00:49:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/nova-furry-xl-il-v120-sdxl",
+      "name": "John6666/nova-furry-xl-il-v120-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/nova-furry-xl-il-v120-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 171478,
+        "likes": 5,
+        "last_modified": "2025-10-01T02:46:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/obsession-illustriousxl-v10-sdxl",
+      "name": "John6666/obsession-illustriousxl-v10-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/obsession-illustriousxl-v10-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 69140,
+        "likes": 1,
+        "last_modified": "2024-12-23T06:34:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/one-obsession-17-red-sdxl",
+      "name": "John6666/one-obsession-17-red-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/one-obsession-17-red-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 168783,
+        "likes": 3,
+        "last_modified": "2025-09-18T13:20:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/prefect-illustrious-xl-v3-sdxl",
+      "name": "John6666/prefect-illustrious-xl-v3-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/prefect-illustrious-xl-v3-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 33127,
+        "likes": 2,
+        "last_modified": "2025-08-14T00:03:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "John6666/true-pencil-xl-v100-sdxl",
+      "name": "John6666/true-pencil-xl-v100-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/John6666/true-pencil-xl-v100-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 22124,
+        "likes": 0,
+        "last_modified": "2025-07-02T11:59:44.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "JujoHotaru/lora",
+      "name": "JujoHotaru/lora",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/JujoHotaru/lora"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 11852,
+        "likes": 351,
+        "last_modified": "2026-01-24T06:24:39.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Kirilliouse/1",
+      "name": "Kirilliouse/1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Kirilliouse/1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12092,
+        "likes": 0,
+        "last_modified": "2026-07-22T19:47:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Kokosha01/Wan2.2_StrangeNames",
+      "name": "Kokosha01/Wan2.2_StrangeNames",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Kokosha01/Wan2.2_StrangeNames"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 27715,
+        "likes": 1,
+        "last_modified": "2026-03-12T20:29:06.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "latent-consistency/lcm-lora-sdv1-5",
+      "name": "latent-consistency/lcm-lora-sdv1-5",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 42624,
+        "likes": 530,
+        "last_modified": "2023-11-16T16:01:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "latent-consistency/lcm-lora-sdxl",
+      "name": "latent-consistency/lcm-lora-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/latent-consistency/lcm-lora-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 49837,
+        "likes": 772,
+        "last_modified": "2023-11-24T13:31:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Laxhar/noobai-XL-1.0",
+      "name": "Laxhar/noobai-XL-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Laxhar/noobai-XL-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 12245,
+        "likes": 31,
+        "last_modified": "2024-11-15T06:49:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Laxhar/noobai-XL-1.1",
+      "name": "Laxhar/noobai-XL-1.1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Laxhar/noobai-XL-1.1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 94603,
+        "likes": 150,
+        "last_modified": "2025-09-08T13:03:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Laxhar/noobai-XL-Vpred-1.0",
+      "name": "Laxhar/noobai-XL-Vpred-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Laxhar/noobai-XL-Vpred-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 48831,
+        "likes": 69,
+        "last_modified": "2025-11-19T14:39:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "leejet/FLUX.2-klein-4B-GGUF",
+      "name": "leejet/FLUX.2-klein-4B-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/leejet/FLUX.2-klein-4B-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15426,
+        "likes": 11,
+        "last_modified": "2026-01-17T06:39:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "leejet/Z-Image-Turbo-GGUF",
+      "name": "leejet/Z-Image-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 32947,
+        "likes": 53,
+        "last_modified": "2025-12-02T12:31:06.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lightx2v/Qwen-Image-2512-Lightning",
+      "name": "lightx2v/Qwen-Image-2512-Lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lightx2v/Qwen-Image-2512-Lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 71420,
+        "likes": 228,
+        "last_modified": "2026-01-15T10:37:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lightx2v/Qwen-Image-Lightning",
+      "name": "lightx2v/Qwen-Image-Lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lightx2v/Qwen-Image-Lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 439194,
+        "likes": 820,
+        "last_modified": "2025-11-03T11:20:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lodestones/Chroma1-Base",
+      "name": "lodestones/Chroma1-Base",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lodestones/Chroma1-Base"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 36521,
+        "likes": 113,
+        "last_modified": "2025-08-23T10:18:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lodestones/Chroma1-Flash",
+      "name": "lodestones/Chroma1-Flash",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lodestones/Chroma1-Flash"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 48432,
+        "likes": 64,
+        "last_modified": "2025-08-22T14:20:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lodestones/Chroma1-HD",
+      "name": "lodestones/Chroma1-HD",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lodestones/Chroma1-HD"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 68604,
+        "likes": 393,
+        "last_modified": "2025-10-23T09:07:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "LoliRimuru/moeFussion",
+      "name": "LoliRimuru/moeFussion",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/LoliRimuru/moeFussion"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 25248,
+        "likes": 294,
+        "last_modified": "2026-07-14T07:27:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lopi999/Wan2.2-I2V_General-NSFW-LoRA",
+      "name": "lopi999/Wan2.2-I2V_General-NSFW-LoRA",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lopi999/Wan2.2-I2V_General-NSFW-LoRA"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 58835,
+        "likes": 97,
+        "last_modified": "2025-09-17T03:18:48.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lovis93/testllm",
+      "name": "lovis93/testllm",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lovis93/testllm"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 34305,
+        "likes": 13,
+        "last_modified": "2024-10-18T05:17:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1",
+      "name": "lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 34012,
+        "likes": 254,
+        "last_modified": "2026-06-08T18:39:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/AnyLoRA",
+      "name": "Lykon/AnyLoRA",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/AnyLoRA"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 15664,
+        "likes": 51,
+        "last_modified": "2024-01-18T14:18:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/DreamShaper",
+      "name": "Lykon/DreamShaper",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/DreamShaper"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 210359,
+        "likes": 1015,
+        "last_modified": "2024-04-14T10:07:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/dreamshaper-7",
+      "name": "Lykon/dreamshaper-7",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/dreamshaper-7"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 904512,
+        "likes": 63,
+        "last_modified": "2023-12-07T10:13:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/dreamshaper-8",
+      "name": "Lykon/dreamshaper-8",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/dreamshaper-8"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 161130,
+        "likes": 127,
+        "last_modified": "2023-12-07T10:14:28.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/dreamshaper-xl-lightning",
+      "name": "Lykon/dreamshaper-xl-lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/dreamshaper-xl-lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 13010,
+        "likes": 82,
+        "last_modified": "2024-03-01T11:46:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Lykon/dreamshaper-xl-v2-turbo",
+      "name": "Lykon/dreamshaper-xl-v2-turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Lykon/dreamshaper-xl-v2-turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 20727,
+        "likes": 85,
+        "last_modified": "2024-02-19T18:06:49.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "LyliaEngine/anima_baseV10",
+      "name": "LyliaEngine/anima_baseV10",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/LyliaEngine/anima_baseV10"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cdla-permissive-2.0",
+        "downloads": 11948,
+        "likes": 1,
+        "last_modified": "2026-06-03T14:45:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "LyliaEngine/Pony_Diffusion_V6_XL",
+      "name": "LyliaEngine/Pony_Diffusion_V6_XL",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/LyliaEngine/Pony_Diffusion_V6_XL"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cdla-permissive-2.0",
+        "downloads": 242183,
+        "likes": 153,
+        "last_modified": "2024-05-25T09:45:40.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "LyliaEngine/waiIllustriousSDXL_v170",
+      "name": "LyliaEngine/waiIllustriousSDXL_v170",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/LyliaEngine/waiIllustriousSDXL_v170"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cdla-permissive-2.0",
+        "downloads": 25900,
+        "likes": 12,
+        "last_modified": "2026-05-15T03:21:23.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lynaNSFW/Krea2turboNSFWAIO",
+      "name": "lynaNSFW/Krea2turboNSFWAIO",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lynaNSFW/Krea2turboNSFWAIO"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 12752,
+        "likes": 0,
+        "last_modified": "2026-08-08T08:00:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Manjushri/pornworks-real-porn-photo-realistic-nsfw-sdxl-and-pony-chekpoint",
+      "name": "Manjushri/pornworks-real-porn-photo-realistic-nsfw-sdxl-and-pony-chekpoint",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Manjushri/pornworks-real-porn-photo-realistic-nsfw-sdxl-and-pony-chekpoint"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 14540,
+        "likes": 8,
+        "last_modified": "2026-07-18T23:30:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Manojb/stable-diffusion-2-1-base",
+      "name": "Manojb/stable-diffusion-2-1-base",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Manojb/stable-diffusion-2-1-base"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 28019,
+        "likes": 56,
+        "last_modified": "2025-06-13T20:37:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "martineux/dvine82-xl",
+      "name": "martineux/dvine82-xl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/martineux/dvine82-xl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 195022,
+        "likes": 0,
+        "last_modified": "2026-02-04T04:46:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Meina/MeinaMix",
+      "name": "Meina/MeinaMix",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Meina/MeinaMix"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 20228,
+        "likes": 154,
+        "last_modified": "2023-05-25T11:18:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "meituan-longcat/LongCat-Image",
+      "name": "meituan-longcat/LongCat-Image",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/meituan-longcat/LongCat-Image"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 14504,
+        "likes": 248,
+        "last_modified": "2025-12-16T09:47:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "molbal/krea2-gguf",
+      "name": "molbal/krea2-gguf",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/molbal/krea2-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 11920,
+        "likes": 17,
+        "last_modified": "2026-07-26T21:12:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "monadical-labs/minecraft-skin-generator-sdxl",
+      "name": "monadical-labs/minecraft-skin-generator-sdxl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/monadical-labs/minecraft-skin-generator-sdxl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail",
+        "downloads": 35996,
+        "likes": 31,
+        "last_modified": "2024-07-22T19:37:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nerijs/pixel-art-xl",
+      "name": "nerijs/pixel-art-xl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nerijs/pixel-art-xl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 12270,
+        "likes": 640,
+        "last_modified": "2023-11-09T18:45:23.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nphSi/Z-Image-Lora",
+      "name": "nphSi/Z-Image-Lora",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 216495,
+        "likes": 139,
+        "last_modified": "2026-08-15T20:19:22.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nunchaku-ai/nunchaku-qwen-image-edit",
+      "name": "nunchaku-ai/nunchaku-qwen-image-edit",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nunchaku-ai/nunchaku-qwen-image-edit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 64972,
+        "likes": 121,
+        "last_modified": "2025-11-16T02:24:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nunchaku-ai/nunchaku-qwen-image-edit-2509",
+      "name": "nunchaku-ai/nunchaku-qwen-image-edit-2509",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nunchaku-ai/nunchaku-qwen-image-edit-2509"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15474,
+        "likes": 293,
+        "last_modified": "2025-11-16T02:24:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nvidia/Cosmos3-Super-Text2Image-4Step",
+      "name": "nvidia/Cosmos3-Super-Text2Image-4Step",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 101786,
+        "likes": 13,
+        "last_modified": "2026-07-30T03:00:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "offgrid-ai/pony-diffusion-v6-xl-GGUF",
+      "name": "offgrid-ai/pony-diffusion-v6-xl-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/offgrid-ai/pony-diffusion-v6-xl-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 28597,
+        "likes": 3,
+        "last_modified": "2026-06-24T12:55:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Omnico/Krea2_turbo_diff_loras",
+      "name": "Omnico/Krea2_turbo_diff_loras",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Omnico/Krea2_turbo_diff_loras"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 15269,
+        "likes": 16,
+        "last_modified": "2026-08-11T22:28:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OnomaAIResearch/Illustrious-xl-early-release-v0",
+      "name": "OnomaAIResearch/Illustrious-xl-early-release-v0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OnomaAIResearch/Illustrious-xl-early-release-v0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 75797,
+        "likes": 429,
+        "last_modified": "2025-02-13T01:56:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/stable-diffusion-3-tiny-random",
+      "name": "optimum-intel-internal-testing/stable-diffusion-3-tiny-random",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/stable-diffusion-3-tiny-random"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 129232,
+        "likes": 0,
+        "last_modified": "2025-10-21T10:06:33.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-flux",
+      "name": "optimum-intel-internal-testing/tiny-random-flux",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-flux"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 119270,
+        "likes": 0,
+        "last_modified": "2026-08-10T09:20:44.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-flux.2-klein",
+      "name": "optimum-intel-internal-testing/tiny-random-flux.2-klein",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-flux.2-klein"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 33369,
+        "likes": 0,
+        "last_modified": "2026-06-30T08:23:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-latent-consistency",
+      "name": "optimum-intel-internal-testing/tiny-random-latent-consistency",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-latent-consistency"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 98978,
+        "likes": 0,
+        "last_modified": "2025-10-21T10:06:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-sana",
+      "name": "optimum-intel-internal-testing/tiny-random-sana",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-sana"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 55569,
+        "likes": 0,
+        "last_modified": "2025-10-21T10:10:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-stable-diffusion-with-safety-checker",
+      "name": "optimum-intel-internal-testing/tiny-random-stable-diffusion-with-safety-checker",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-stable-diffusion-with-safety-checker"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 18140,
+        "likes": 0,
+        "last_modified": "2025-11-20T10:55:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-random-stable-diffusion-xl",
+      "name": "optimum-intel-internal-testing/tiny-random-stable-diffusion-xl",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-random-stable-diffusion-xl"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 146257,
+        "likes": 0,
+        "last_modified": "2025-10-21T10:06:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "optimum-intel-internal-testing/tiny-stable-diffusion-torch",
+      "name": "optimum-intel-internal-testing/tiny-stable-diffusion-torch",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/optimum-intel-internal-testing/tiny-stable-diffusion-torch"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 160047,
+        "likes": 0,
+        "last_modified": "2025-10-21T10:06:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ostris/ideogram_4_turbotime_lora",
+      "name": "ostris/ideogram_4_turbotime_lora",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ostris/ideogram_4_turbotime_lora"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 12896,
+        "likes": 134,
+        "last_modified": "2026-06-17T17:25:41.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ostris/krea2_turbo_training_adapter",
+      "name": "ostris/krea2_turbo_training_adapter",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ostris/krea2_turbo_training_adapter"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 19556,
+        "likes": 21,
+        "last_modified": "2026-06-24T02:49:31.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ostris/z_image_turbo_childrens_drawings",
+      "name": "ostris/z_image_turbo_childrens_drawings",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ostris/z_image_turbo_childrens_drawings"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 16398,
+        "likes": 39,
+        "last_modified": "2025-11-29T19:18:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ostris/zimage_turbo_training_adapter",
+      "name": "ostris/zimage_turbo_training_adapter",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ostris/zimage_turbo_training_adapter"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 39109,
+        "likes": 146,
+        "last_modified": "2025-12-01T14:17:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF",
+      "name": "Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Phil2Sat/Qwen-Image-Edit-Rapid-AIO-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 35862,
+        "likes": 252,
+        "last_modified": "2025-11-07T19:24:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "playgroundai/playground-v2.5-1024px-aesthetic",
+      "name": "playgroundai/playground-v2.5-1024px-aesthetic",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 417044,
+        "likes": 770,
+        "last_modified": "2024-03-15T00:00:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pmczip/Krea2Raw_Loras",
+      "name": "pmczip/Krea2Raw_Loras",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pmczip/Krea2Raw_Loras"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 13086,
+        "likes": 46,
+        "last_modified": "2026-08-09T14:39:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pmczip/Z-Image-Turbo_Models",
+      "name": "pmczip/Z-Image-Turbo_Models",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pmczip/Z-Image-Turbo_Models"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 20054,
+        "likes": 13,
+        "last_modified": "2026-08-07T00:06:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "purplesmartai/pony-v7-base",
+      "name": "purplesmartai/pony-v7-base",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/purplesmartai/pony-v7-base"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 36543,
+        "likes": 101,
+        "last_modified": "2025-10-26T07:50:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "QuantStack/FLUX.1-Krea-dev-GGUF",
+      "name": "QuantStack/FLUX.1-Krea-dev-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/QuantStack/FLUX.1-Krea-dev-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 19895,
+        "likes": 142,
+        "last_modified": "2025-07-31T18:28:28.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen-Image",
+      "name": "Qwen/Qwen-Image",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen-Image"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 225350,
+        "likes": 2579,
+        "last_modified": "2025-08-18T02:42:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen-Image-2512",
+      "name": "Qwen/Qwen-Image-2512",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen-Image-2512"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 97149,
+        "likes": 926,
+        "last_modified": "2025-12-31T09:47:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "realrebelai/Krea-R-Turbo",
+      "name": "realrebelai/Krea-R-Turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/realrebelai/Krea-R-Turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 12047,
+        "likes": 8,
+        "last_modified": "2026-07-17T05:13:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RudySen/Krea2-realism-V2",
+      "name": "RudySen/Krea2-realism-V2",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RudySen/Krea2-realism-V2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 28712,
+        "likes": 143,
+        "last_modified": "2026-07-02T19:00:16.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RunDiffusion/Juggernaut-X-v10",
+      "name": "RunDiffusion/Juggernaut-X-v10",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RunDiffusion/Juggernaut-X-v10"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 18344,
+        "likes": 168,
+        "last_modified": "2026-05-08T17:21:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RunDiffusion/Juggernaut-XI-v11",
+      "name": "RunDiffusion/Juggernaut-XI-v11",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RunDiffusion/Juggernaut-XI-v11"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cc-by-nc-nd-4.0",
+        "downloads": 41866,
+        "likes": 143,
+        "last_modified": "2026-05-08T17:23:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RunDiffusion/Juggernaut-XL-Lightning",
+      "name": "RunDiffusion/Juggernaut-XL-Lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-Lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 13352,
+        "likes": 61,
+        "last_modified": "2026-05-08T17:22:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RunDiffusion/Juggernaut-XL-v9",
+      "name": "RunDiffusion/Juggernaut-XL-v9",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 208604,
+        "likes": 407,
+        "last_modified": "2026-05-08T17:14:44.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "RunDiffusion/Juggernaut-Z-Image",
+      "name": "RunDiffusion/Juggernaut-Z-Image",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/RunDiffusion/Juggernaut-Z-Image"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 16798,
+        "likes": 129,
+        "last_modified": "2026-05-13T18:41:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Runpod/FLUX.2-klein-4B-mflux-4bit",
+      "name": "Runpod/FLUX.2-klein-4B-mflux-4bit",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Runpod/FLUX.2-klein-4B-mflux-4bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 14554,
+        "likes": 9,
+        "last_modified": "2026-04-10T10:10:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "sanrenti/Flux2-Klein-9B-True-V3",
+      "name": "sanrenti/Flux2-Klein-9B-True-V3",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/sanrenti/Flux2-Klein-9B-True-V3"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12368,
+        "likes": 1,
+        "last_modified": "2026-07-07T16:26:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "sd2-community/stable-diffusion-2-1",
+      "name": "sd2-community/stable-diffusion-2-1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/sd2-community/stable-diffusion-2-1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 16783,
+        "likes": 34,
+        "last_modified": "2025-11-15T10:33:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "second-state/stable-diffusion-3.5-large-GGUF",
+      "name": "second-state/stable-diffusion-3.5-large-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/second-state/stable-diffusion-3.5-large-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 19659,
+        "likes": 16,
+        "last_modified": "2024-11-19T12:33:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "second-state/stable-diffusion-3.5-medium-GGUF",
+      "name": "second-state/stable-diffusion-3.5-medium-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/second-state/stable-diffusion-3.5-medium-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 16954,
+        "likes": 11,
+        "last_modified": "2024-11-23T12:26:40.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "second-state/stable-diffusion-v1-5-GGUF",
+      "name": "second-state/stable-diffusion-v1-5-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/second-state/stable-diffusion-v1-5-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 24530,
+        "likes": 32,
+        "last_modified": "2024-11-22T06:47:59.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "segmind/SSD-1B",
+      "name": "segmind/SSD-1B",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/segmind/SSD-1B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 17040,
+        "likes": 842,
+        "last_modified": "2024-01-08T04:26:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "segmind/tiny-sd",
+      "name": "segmind/tiny-sd",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/segmind/tiny-sd"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 11642,
+        "likes": 94,
+        "last_modified": "2023-08-08T07:35:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/Realistic_Vision_V5.1_noVAE",
+      "name": "SG161222/Realistic_Vision_V5.1_noVAE",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 457160,
+        "likes": 263,
+        "last_modified": "2025-10-30T16:55:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/Realistic_Vision_V6.0_B1_noVAE",
+      "name": "SG161222/Realistic_Vision_V6.0_B1_noVAE",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 45060,
+        "likes": 317,
+        "last_modified": "2024-10-08T16:36:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/RealVisXL_V3.0",
+      "name": "SG161222/RealVisXL_V3.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/RealVisXL_V3.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 14057,
+        "likes": 75,
+        "last_modified": "2024-10-08T16:35:16.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/RealVisXL_V4.0",
+      "name": "SG161222/RealVisXL_V4.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/RealVisXL_V4.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 92968,
+        "likes": 291,
+        "last_modified": "2024-10-08T16:34:46.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/RealVisXL_V5.0",
+      "name": "SG161222/RealVisXL_V5.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/RealVisXL_V5.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 394292,
+        "likes": 202,
+        "last_modified": "2024-10-08T16:34:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SG161222/RealVisXL_V5.0_Lightning",
+      "name": "SG161222/RealVisXL_V5.0_Lightning",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SG161222/RealVisXL_V5.0_Lightning"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 15983,
+        "likes": 61,
+        "last_modified": "2024-10-08T16:34:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Shakker-Labs/AWPortrait-FL",
+      "name": "Shakker-Labs/AWPortrait-FL",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Shakker-Labs/AWPortrait-FL"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 13656,
+        "likes": 489,
+        "last_modified": "2024-09-05T13:53:10.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "shootstuff/LUSTIFY-v2.0",
+      "name": "shootstuff/LUSTIFY-v2.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/shootstuff/LUSTIFY-v2.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 23006,
+        "likes": 1,
+        "last_modified": "2026-06-13T09:06:41.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "silveroxides/Chroma-GGUF",
+      "name": "silveroxides/Chroma-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/silveroxides/Chroma-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 21645,
+        "likes": 245,
+        "last_modified": "2025-09-11T23:13:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SimianLuo/LCM_Dreamshaper_v7",
+      "name": "SimianLuo/LCM_Dreamshaper_v7",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SimianLuo/LCM_Dreamshaper_v7"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 106860,
+        "likes": 416,
+        "last_modified": "2024-03-05T08:32:22.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stabilityai/sd-turbo",
+      "name": "stabilityai/sd-turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stabilityai/sd-turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 573003,
+        "likes": 458,
+        "last_modified": "2024-07-10T11:38:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stabilityai/sdxl-turbo",
+      "name": "stabilityai/sdxl-turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stabilityai/sdxl-turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 1290821,
+        "likes": 2620,
+        "last_modified": "2024-07-10T11:33:43.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "openrail++",
+        "downloads": 1535859,
+        "likes": 8043,
+        "last_modified": "2023-10-30T16:03:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stable-diffusion-v1-5/stable-diffusion-inpainting",
+      "name": "stable-diffusion-v1-5/stable-diffusion-inpainting",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-inpainting"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 130037,
+        "likes": 117,
+        "last_modified": "2024-09-06T18:58:07.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "name": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 1489050,
+        "likes": 1242,
+        "last_modified": "2024-09-07T16:20:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stablediffusionapi/beautiful-realistic-asian",
+      "name": "stablediffusionapi/beautiful-realistic-asian",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stablediffusionapi/beautiful-realistic-asian"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 13020,
+        "likes": 6,
+        "last_modified": "2025-01-20T11:33:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stablediffusionapi/chilloutmix",
+      "name": "stablediffusionapi/chilloutmix",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stablediffusionapi/chilloutmix"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 18477,
+        "likes": 9,
+        "last_modified": "2025-01-20T11:20:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stablediffusionapi/juggernaut-reborn",
+      "name": "stablediffusionapi/juggernaut-reborn",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stablediffusionapi/juggernaut-reborn"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 89896,
+        "likes": 3,
+        "last_modified": "2024-01-21T12:51:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stablediffusionapi/realistic-vision-v51",
+      "name": "stablediffusionapi/realistic-vision-v51",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stablediffusionapi/realistic-vision-v51"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 20192,
+        "likes": 53,
+        "last_modified": "2024-03-07T18:54:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stablediffusionapi/revanimated",
+      "name": "stablediffusionapi/revanimated",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stablediffusionapi/revanimated"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 211963,
+        "likes": 2,
+        "last_modified": "2025-01-20T11:23:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "stanfordmimi/Merlin",
+      "name": "stanfordmimi/Merlin",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/stanfordmimi/Merlin"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "mit",
+        "downloads": 21513,
+        "likes": 35,
+        "last_modified": "2026-05-01T17:27:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "szwagros/Krea-2-Turbo-fp8",
+      "name": "szwagros/Krea-2-Turbo-fp8",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/szwagros/Krea-2-Turbo-fp8"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 19583,
+        "likes": 0,
+        "last_modified": "2026-06-24T21:01:11.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "T5B/Z-Image-Turbo-FP8",
+      "name": "T5B/Z-Image-Turbo-FP8",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/T5B/Z-Image-Turbo-FP8"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 68427,
+        "likes": 172,
+        "last_modified": "2025-11-27T16:17:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "tarn59/pixel_art_style_lora_z_image_turbo",
+      "name": "tarn59/pixel_art_style_lora_z_image_turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/tarn59/pixel_art_style_lora_z_image_turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12537,
+        "likes": 51,
+        "last_modified": "2025-11-30T15:16:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled",
+      "name": "Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.1-Diffusers-Distilled"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 185967,
+        "likes": 16,
+        "last_modified": "2024-06-14T09:16:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "tencent/HunyuanImage-3.0",
+      "name": "tencent/HunyuanImage-3.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/tencent/HunyuanImage-3.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 20004,
+        "likes": 1105,
+        "last_modified": "2026-01-28T08:14:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "thibaud/controlnet-openpose-sdxl-1.0",
+      "name": "thibaud/controlnet-openpose-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 60012,
+        "likes": 424,
+        "last_modified": "2023-09-03T13:44:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "tianweiy/DMD2",
+      "name": "tianweiy/DMD2",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/tianweiy/DMD2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 29763,
+        "likes": 244,
+        "last_modified": "2024-06-11T18:14:59.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Tongyi-MAI/Z-Image",
+      "name": "Tongyi-MAI/Z-Image",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Tongyi-MAI/Z-Image"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 28008,
+        "likes": 1202,
+        "last_modified": "2026-01-28T14:26:13.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Tongyi-MAI/Z-Image-Turbo",
+      "name": "Tongyi-MAI/Z-Image-Turbo",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 899519,
+        "likes": 5113,
+        "last_modified": "2026-01-30T16:58:07.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Uminosachi/realisticVisionV51_v51VAE-inpainting",
+      "name": "Uminosachi/realisticVisionV51_v51VAE-inpainting",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Uminosachi/realisticVisionV51_v51VAE-inpainting"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 13811,
+        "likes": 12,
+        "last_modified": "2023-08-01T02:05:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/FLUX.1-dev-GGUF",
+      "name": "unsloth/FLUX.1-dev-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/FLUX.1-dev-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 13581,
+        "likes": 22,
+        "last_modified": "2025-06-30T10:54:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/Qwen-Image-2512-GGUF",
+      "name": "unsloth/Qwen-Image-2512-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/Qwen-Image-2512-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 95940,
+        "likes": 395,
+        "last_modified": "2026-01-06T22:28:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/Z-Image-GGUF",
+      "name": "unsloth/Z-Image-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/Z-Image-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 13620,
+        "likes": 188,
+        "last_modified": "2026-01-28T06:04:22.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/Z-Image-Turbo-GGUF",
+      "name": "unsloth/Z-Image-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/Z-Image-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 57124,
+        "likes": 245,
+        "last_modified": "2026-01-08T02:11:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "vantagewithai/Krea-2-Turbo-GGUF",
+      "name": "vantagewithai/Krea-2-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/vantagewithai/Krea-2-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 48353,
+        "likes": 128,
+        "last_modified": "2026-06-23T19:11:48.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "votepurchase/pornmasterPro_noobV3VAE",
+      "name": "votepurchase/pornmasterPro_noobV3VAE",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/votepurchase/pornmasterPro_noobV3VAE"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "creativeml-openrail-m",
+        "downloads": 13367,
+        "likes": 18,
+        "last_modified": "2025-05-24T16:28:57.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "WANG-CC/flux2-klein-9b-uncensored-text-encoder-Q8_0-GGUF",
+      "name": "WANG-CC/flux2-klein-9b-uncensored-text-encoder-Q8_0-GGUF",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/WANG-CC/flux2-klein-9b-uncensored-text-encoder-Q8_0-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 12799,
+        "likes": 2,
+        "last_modified": "2026-07-13T11:48:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wikeeyang/Flux2-Klein-9B-True-V2",
+      "name": "wikeeyang/Flux2-Klein-9B-True-V2",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 841594,
+        "likes": 184,
+        "last_modified": "2026-07-13T11:28:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wikeeyang/Flux2-Klein-9B-True-V3",
+      "name": "wikeeyang/Flux2-Klein-9B-True-V3",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 30204,
+        "likes": 129,
+        "last_modified": "2026-07-13T11:29:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wikeeyang/Krea2-Turbo-HD-V1",
+      "name": "wikeeyang/Krea2-Turbo-HD-V1",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wikeeyang/Krea2-Turbo-HD-V1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 32961,
+        "likes": 89,
+        "last_modified": "2026-07-13T11:30:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Winnougan/Ideogram_Instant_NSFW",
+      "name": "Winnougan/Ideogram_Instant_NSFW",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Winnougan/Ideogram_Instant_NSFW"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 14178,
+        "likes": 12,
+        "last_modified": "2026-07-21T11:17:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wraps/FLUX.2-klein-9B-Blitz-ComfyUI",
+      "name": "wraps/FLUX.2-klein-9B-Blitz-ComfyUI",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wraps/FLUX.2-klein-9B-Blitz-ComfyUI"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": null,
+        "downloads": 11850,
+        "likes": 24,
+        "last_modified": "2026-07-15T14:04:05.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Wuli-art/Qwen-Image-2512-Turbo-LoRA-2-Steps",
+      "name": "Wuli-art/Qwen-Image-2512-Turbo-LoRA-2-Steps",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Wuli-art/Qwen-Image-2512-Turbo-LoRA-2-Steps"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 21844,
+        "likes": 126,
+        "last_modified": "2026-01-30T06:12:24.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-canny-sdxl-1.0",
+      "name": "xinsir/controlnet-canny-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-canny-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 23794,
+        "likes": 204,
+        "last_modified": "2024-07-09T15:42:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-depth-sdxl-1.0",
+      "name": "xinsir/controlnet-depth-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-depth-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 17279,
+        "likes": 100,
+        "last_modified": "2024-07-09T15:41:46.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-openpose-sdxl-1.0",
+      "name": "xinsir/controlnet-openpose-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-openpose-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 95140,
+        "likes": 308,
+        "last_modified": "2024-07-09T15:42:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-scribble-sdxl-1.0",
+      "name": "xinsir/controlnet-scribble-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-scribble-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 44516,
+        "likes": 268,
+        "last_modified": "2024-07-09T15:41:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-tile-sdxl-1.0",
+      "name": "xinsir/controlnet-tile-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-tile-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 14581,
+        "likes": 281,
+        "last_modified": "2024-09-16T10:14:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "xinsir/controlnet-union-sdxl-1.0",
+      "name": "xinsir/controlnet-union-sdxl-1.0",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "apache-2.0",
+        "downloads": 110518,
+        "likes": 1810,
+        "last_modified": "2024-07-30T09:01:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "XLabs-AI/flux-ip-adapter",
+      "name": "XLabs-AI/flux-ip-adapter",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/XLabs-AI/flux-ip-adapter"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 19648,
+        "likes": 430,
+        "last_modified": "2024-11-07T16:40:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "XLabs-AI/flux-RealismLora",
+      "name": "XLabs-AI/flux-RealismLora",
+      "description": null,
+      "capabilities": [
+        "image_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "image"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/XLabs-AI/flux-RealismLora"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-image"
+        ],
+        "license": "other",
+        "downloads": 13703,
+        "likes": 1232,
+        "last_modified": "2024-08-22T10:19:23.000Z"
+      }
+    }
+  ]
+}

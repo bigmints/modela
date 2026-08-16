@@ -1,0 +1,7457 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T18:01:54.233Z",
+  "catalogue_hash": "f1dd67c564eda2b48494bb1c7ef15a94a15ede30b7825e6d36b70811c36ceefe",
+  "model_count": 191,
+  "models": [
+    {
+      "provider": "huggingface",
+      "id": "aoi-ot/VibeVoice-Large",
+      "name": "aoi-ot/VibeVoice-Large",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/aoi-ot/VibeVoice-Large"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 2460,
+        "likes": 236,
+        "last_modified": "2025-09-25T00:32:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "audio-cpp/audio.cpp-gguf",
+      "name": "audio-cpp/audio.cpp-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/audio-cpp/audio.cpp-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 324969,
+        "likes": 54,
+        "last_modified": "2026-08-15T12:04:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Audio8/Audio8-TTS-Preview-0.6b",
+      "name": "Audio8/Audio8-TTS-Preview-0.6b",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 18493,
+        "likes": 353,
+        "last_modified": "2026-07-31T12:58:38.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "audo/orpheus-3b-0.1-ft",
+      "name": "audo/orpheus-3b-0.1-ft",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/audo/orpheus-3b-0.1-ft"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3652,
+        "likes": 1,
+        "last_modified": "2025-03-21T06:40:59.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "aufklarer/Kokoro-82M-CoreML",
+      "name": "aufklarer/Kokoro-82M-CoreML",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/aufklarer/Kokoro-82M-CoreML"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 7656,
+        "likes": 5,
+        "last_modified": "2026-04-19T21:05:49.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "aufklarer/Supertonic-3-CoreML",
+      "name": "aufklarer/Supertonic-3-CoreML",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/aufklarer/Supertonic-3-CoreML"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "openrail",
+        "downloads": 3415,
+        "likes": 0,
+        "last_modified": "2026-06-24T18:48:02.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ayousanz/piper-plus-tsukuyomi-chan",
+      "name": "ayousanz/piper-plus-tsukuyomi-chan",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ayousanz/piper-plus-tsukuyomi-chan"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 3780,
+        "likes": 11,
+        "last_modified": "2026-06-13T07:08:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "biodatlab/ThonburianTTS",
+      "name": "biodatlab/ThonburianTTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/biodatlab/ThonburianTTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc",
+        "downloads": 3105,
+        "likes": 12,
+        "last_modified": "2026-01-13T07:38:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "bosonai/higgs-tts-2-3b-base",
+      "name": "bosonai/higgs-tts-2-3b-base",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/bosonai/higgs-tts-2-3b-base"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 536620,
+        "likes": 693,
+        "last_modified": "2026-06-25T16:58:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "bosonai/higgs-tts-3-4b",
+      "name": "bosonai/higgs-tts-3-4b",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/bosonai/higgs-tts-3-4b"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 231768,
+        "likes": 713,
+        "last_modified": "2026-07-09T18:26:38.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "BricksDisplay/ellie-Bert-VITS2",
+      "name": "BricksDisplay/ellie-Bert-VITS2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/BricksDisplay/ellie-Bert-VITS2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-4.0",
+        "downloads": 76616,
+        "likes": 4,
+        "last_modified": "2026-08-13T07:40:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "calcuis/chatterbox-gguf",
+      "name": "calcuis/chatterbox-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/calcuis/chatterbox-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 2340,
+        "likes": 55,
+        "last_modified": "2025-09-18T19:11:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cartesia/azzurra-voice",
+      "name": "cartesia/azzurra-voice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cartesia/azzurra-voice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc",
+        "downloads": 44045,
+        "likes": 18,
+        "last_modified": "2026-02-12T16:14:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cocktailpeanut/oa",
+      "name": "cocktailpeanut/oa",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cocktailpeanut/oa"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-sa-4.0",
+        "downloads": 3241,
+        "likes": 1,
+        "last_modified": "2025-06-04T20:48:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "contextboxai/Kokoro-Vietnamese",
+      "name": "contextboxai/Kokoro-Vietnamese",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/contextboxai/Kokoro-Vietnamese"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 38550,
+        "likes": 19,
+        "last_modified": "2026-06-27T15:37:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "coqui/XTTS-v2",
+      "name": "coqui/XTTS-v2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/coqui/XTTS-v2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 8684360,
+        "likes": 3732,
+        "last_modified": "2023-12-11T17:50:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/chatterbox-GGUF",
+      "name": "cstr/chatterbox-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/chatterbox-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 3905,
+        "likes": 3,
+        "last_modified": "2026-08-13T19:19:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/cosyvoice3-0.5b-2512-GGUF",
+      "name": "cstr/cosyvoice3-0.5b-2512-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/cosyvoice3-0.5b-2512-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 7460,
+        "likes": 9,
+        "last_modified": "2026-08-05T17:46:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/indextts-1.5-GGUF",
+      "name": "cstr/indextts-1.5-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/indextts-1.5-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2386,
+        "likes": 1,
+        "last_modified": "2026-05-10T15:57:02.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/kokoro-voices-GGUF",
+      "name": "cstr/kokoro-voices-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/kokoro-voices-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3159,
+        "likes": 2,
+        "last_modified": "2026-08-03T08:54:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/qwen3-tts-0.6b-base-GGUF",
+      "name": "cstr/qwen3-tts-0.6b-base-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/qwen3-tts-0.6b-base-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2710,
+        "likes": 4,
+        "last_modified": "2026-08-02T15:38:07.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/qwen3-tts-1.7b-base-GGUF",
+      "name": "cstr/qwen3-tts-1.7b-base-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/qwen3-tts-1.7b-base-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3562,
+        "likes": 6,
+        "last_modified": "2026-08-02T15:38:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/qwen3-tts-1.7b-customvoice-GGUF",
+      "name": "cstr/qwen3-tts-1.7b-customvoice-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/qwen3-tts-1.7b-customvoice-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3073,
+        "likes": 6,
+        "last_modified": "2026-08-02T15:38:23.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/qwen3-tts-1.7b-voicedesign-GGUF",
+      "name": "cstr/qwen3-tts-1.7b-voicedesign-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/qwen3-tts-1.7b-voicedesign-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3049,
+        "likes": 3,
+        "last_modified": "2026-08-02T15:38:28.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/tada-tts-3b-ml-GGUF",
+      "name": "cstr/tada-tts-3b-ml-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/tada-tts-3b-ml-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "llama3.2",
+        "downloads": 6098,
+        "likes": 0,
+        "last_modified": "2026-08-02T15:41:57.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/vibevoice-1.5b-GGUF",
+      "name": "cstr/vibevoice-1.5b-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/vibevoice-1.5b-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 2580,
+        "likes": 2,
+        "last_modified": "2026-08-02T15:43:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/vibevoice-realtime-0.5b-GGUF",
+      "name": "cstr/vibevoice-realtime-0.5b-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/vibevoice-realtime-0.5b-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 4459,
+        "likes": 8,
+        "last_modified": "2026-08-02T15:43:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "cstr/voxcpm2-GGUF",
+      "name": "cstr/voxcpm2-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/cstr/voxcpm2-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2440,
+        "likes": 5,
+        "last_modified": "2026-08-02T15:43:22.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "DennisHuang648/VoxCPM2-GGUF",
+      "name": "DennisHuang648/VoxCPM2-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/DennisHuang648/VoxCPM2-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5947,
+        "likes": 13,
+        "last_modified": "2026-06-30T13:43:40.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "drbaph/Higgs-Audio-v3-Studio",
+      "name": "drbaph/Higgs-Audio-v3-Studio",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/drbaph/Higgs-Audio-v3-Studio"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 179267,
+        "likes": 4,
+        "last_modified": "2026-07-06T18:23:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ekwek/Soprano-1.1-80M",
+      "name": "ekwek/Soprano-1.1-80M",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ekwek/Soprano-1.1-80M"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 6908,
+        "likes": 213,
+        "last_modified": "2026-01-14T17:47:31.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/hf-seamless-m4t-medium",
+      "name": "facebook/hf-seamless-m4t-medium",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/hf-seamless-m4t-medium"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 106683,
+        "likes": 32,
+        "last_modified": "2023-12-08T11:47:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-ara",
+      "name": "facebook/mms-tts-ara",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-ara"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 56768,
+        "likes": 21,
+        "last_modified": "2023-09-01T13:16:50.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-bam",
+      "name": "facebook/mms-tts-bam",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-bam"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 163759,
+        "likes": 4,
+        "last_modified": "2023-09-01T13:54:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-ben",
+      "name": "facebook/mms-tts-ben",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-ben"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 3232,
+        "likes": 5,
+        "last_modified": "2023-09-01T14:16:16.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-bod",
+      "name": "facebook/mms-tts-bod",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-bod"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 55934,
+        "likes": 10,
+        "last_modified": "2023-09-01T10:19:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-deu",
+      "name": "facebook/mms-tts-deu",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-deu"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2671,
+        "likes": 15,
+        "last_modified": "2023-09-01T10:25:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-eng",
+      "name": "facebook/mms-tts-eng",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-eng"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 101574,
+        "likes": 179,
+        "last_modified": "2023-09-06T13:32:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-fas",
+      "name": "facebook/mms-tts-fas",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-fas"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2738,
+        "likes": 8,
+        "last_modified": "2023-09-01T11:16:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-fra",
+      "name": "facebook/mms-tts-fra",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-fra"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 9079,
+        "likes": 15,
+        "last_modified": "2023-09-01T12:59:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-hau",
+      "name": "facebook/mms-tts-hau",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-hau"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2913,
+        "likes": 4,
+        "last_modified": "2023-09-01T10:14:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-hin",
+      "name": "facebook/mms-tts-hin",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-hin"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 98594,
+        "likes": 20,
+        "last_modified": "2023-09-06T13:33:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-ind",
+      "name": "facebook/mms-tts-ind",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-ind"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2836,
+        "likes": 22,
+        "last_modified": "2023-09-01T11:06:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-kan",
+      "name": "facebook/mms-tts-kan",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-kan"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 3485,
+        "likes": 4,
+        "last_modified": "2023-09-01T13:13:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-khm",
+      "name": "facebook/mms-tts-khm",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-khm"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 5180,
+        "likes": 12,
+        "last_modified": "2023-09-01T14:03:33.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-kor",
+      "name": "facebook/mms-tts-kor",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-kor"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 5153,
+        "likes": 16,
+        "last_modified": "2023-09-01T10:39:38.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-rus",
+      "name": "facebook/mms-tts-rus",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-rus"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2848,
+        "likes": 32,
+        "last_modified": "2023-09-01T13:12:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-som",
+      "name": "facebook/mms-tts-som",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-som"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 3185,
+        "likes": 10,
+        "last_modified": "2023-09-01T14:14:21.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-spa",
+      "name": "facebook/mms-tts-spa",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-spa"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 5016,
+        "likes": 24,
+        "last_modified": "2023-09-01T14:15:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-tam",
+      "name": "facebook/mms-tts-tam",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-tam"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 5141,
+        "likes": 13,
+        "last_modified": "2024-02-19T14:10:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-tel",
+      "name": "facebook/mms-tts-tel",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-tel"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 4379,
+        "likes": 11,
+        "last_modified": "2023-09-01T11:06:48.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-tha",
+      "name": "facebook/mms-tts-tha",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-tha"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 3182,
+        "likes": 16,
+        "last_modified": "2023-09-01T11:19:24.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-tir",
+      "name": "facebook/mms-tts-tir",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-tir"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 6060,
+        "likes": 3,
+        "last_modified": "2023-09-01T13:02:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-urd-script_arabic",
+      "name": "facebook/mms-tts-urd-script_arabic",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-urd-script_arabic"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 3644,
+        "likes": 11,
+        "last_modified": "2023-09-01T10:24:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-uzb-script_cyrillic",
+      "name": "facebook/mms-tts-uzb-script_cyrillic",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-uzb-script_cyrillic"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 2833,
+        "likes": 9,
+        "last_modified": "2023-09-01T10:33:18.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "facebook/mms-tts-vie",
+      "name": "facebook/mms-tts-vie",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/facebook/mms-tts-vie"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 5515,
+        "likes": 34,
+        "last_modified": "2023-09-01T10:37:34.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "fishaudio/fish-speech-1.5",
+      "name": "fishaudio/fish-speech-1.5",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/fishaudio/fish-speech-1.5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-sa-4.0",
+        "downloads": 4133,
+        "likes": 768,
+        "last_modified": "2025-03-25T10:07:44.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "fishaudio/s2-pro",
+      "name": "fishaudio/s2-pro",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/fishaudio/s2-pro"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 541782,
+        "likes": 1251,
+        "last_modified": "2026-03-11T15:32:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "freyavoice/Freya-TTS",
+      "name": "freyavoice/Freya-TTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/freyavoice/Freya-TTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5199,
+        "likes": 27,
+        "last_modified": "2026-07-27T20:40:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "FunAudioLLM/CosyVoice2-0.5B",
+      "name": "FunAudioLLM/CosyVoice2-0.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/FunAudioLLM/CosyVoice2-0.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4637,
+        "likes": 84,
+        "last_modified": "2026-05-31T03:10:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "name": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 23648,
+        "likes": 619,
+        "last_modified": "2026-02-03T07:58:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "herimor/voxtream2",
+      "name": "herimor/voxtream2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/herimor/voxtream2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-4.0",
+        "downloads": 3677,
+        "likes": 8,
+        "last_modified": "2026-03-18T07:36:13.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "hexgrad/Kokoro-82M",
+      "name": "hexgrad/Kokoro-82M",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/hexgrad/Kokoro-82M"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12355672,
+        "likes": 6698,
+        "last_modified": "2025-04-10T18:12:48.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "hexgrad/Kokoro-82M-v1.1-zh",
+      "name": "hexgrad/Kokoro-82M-v1.1-zh",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 16537,
+        "likes": 222,
+        "last_modified": "2025-03-04T05:39:52.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "HumeAI/tada-1b",
+      "name": "HumeAI/tada-1b",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/HumeAI/tada-1b"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "llama3.2",
+        "downloads": 13714,
+        "likes": 240,
+        "last_modified": "2026-03-17T18:08:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "HumeAI/tada-3b-ml",
+      "name": "HumeAI/tada-3b-ml",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/HumeAI/tada-3b-ml"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "llama3.2",
+        "downloads": 7568,
+        "likes": 159,
+        "last_modified": "2026-03-17T18:09:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "hynt/F5-TTS-Vietnamese-ViVoice",
+      "name": "hynt/F5-TTS-Vietnamese-ViVoice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/hynt/F5-TTS-Vietnamese-ViVoice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-sa-4.0",
+        "downloads": 2323,
+        "likes": 56,
+        "last_modified": "2026-03-26T04:11:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ilintar/moss-tts-gguf",
+      "name": "ilintar/moss-tts-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ilintar/moss-tts-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 2607,
+        "likes": 2,
+        "last_modified": "2026-06-28T15:53:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "inclusionAI/Ming-omni-tts-0.5B",
+      "name": "inclusionAI/Ming-omni-tts-0.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/inclusionAI/Ming-omni-tts-0.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 8282,
+        "likes": 38,
+        "last_modified": "2026-02-25T08:05:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "IndexTeam/IndexTTS-2",
+      "name": "IndexTeam/IndexTTS-2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/IndexTeam/IndexTTS-2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 13960,
+        "likes": 779,
+        "last_modified": "2026-01-20T13:41:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "IndexTeam/IndexTTS-2.5",
+      "name": "IndexTeam/IndexTTS-2.5",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/IndexTeam/IndexTTS-2.5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 3422,
+        "likes": 115,
+        "last_modified": "2026-08-12T07:23:44.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF",
+      "name": "isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/isaiahbjork/orpheus-3b-0.1-ft-Q4_K_M-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 8774,
+        "likes": 72,
+        "last_modified": "2025-03-20T04:03:24.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "jetjodh/orpheus-3b-0.1-ft",
+      "name": "jetjodh/orpheus-3b-0.1-ft",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/jetjodh/orpheus-3b-0.1-ft"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4289,
+        "likes": 0,
+        "last_modified": "2026-05-01T06:12:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "JTS-AI/JaiTTS-F5TTS",
+      "name": "JTS-AI/JaiTTS-F5TTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/JTS-AI/JaiTTS-F5TTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 9823,
+        "likes": 13,
+        "last_modified": "2026-08-16T16:04:16.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "k2-fsa/OmniVoice",
+      "name": "k2-fsa/OmniVoice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/k2-fsa/OmniVoice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 885512,
+        "likes": 1271,
+        "last_modified": "2026-07-03T03:32:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kakao-enterprise/vits-ljs",
+      "name": "kakao-enterprise/vits-ljs",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kakao-enterprise/vits-ljs"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 15983,
+        "likes": 50,
+        "last_modified": "2023-09-07T15:41:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "keanteng/sesame-csm-elise",
+      "name": "keanteng/sesame-csm-elise",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/keanteng/sesame-csm-elise"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "agpl-3.0",
+        "downloads": 2559,
+        "likes": 10,
+        "last_modified": "2025-06-01T02:42:41.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kenpath/svara-tts-v1",
+      "name": "kenpath/svara-tts-v1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kenpath/svara-tts-v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 239010,
+        "likes": 53,
+        "last_modified": "2025-10-27T17:39:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kenpath/svara-tts-voiceclone-beta",
+      "name": "kenpath/svara-tts-voiceclone-beta",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kenpath/svara-tts-voiceclone-beta"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 22797,
+        "likes": 7,
+        "last_modified": "2025-12-03T12:48:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kensora/kokoro-coreml",
+      "name": "kensora/kokoro-coreml",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kensora/kokoro-coreml"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5653,
+        "likes": 0,
+        "last_modified": "2026-06-26T13:06:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kyutai/tts-0.75b-en-public",
+      "name": "kyutai/tts-0.75b-en-public",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kyutai/tts-0.75b-en-public"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-4.0",
+        "downloads": 3370,
+        "likes": 18,
+        "last_modified": "2025-09-11T15:43:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "kyutai/tts-1.6b-en_fr",
+      "name": "kyutai/tts-1.6b-en_fr",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/kyutai/tts-1.6b-en_fr"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-4.0",
+        "downloads": 135956,
+        "likes": 378,
+        "last_modified": "2025-09-11T08:50:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "laion/moss-tts-local-transformer-4.55b-voice-acting-v2",
+      "name": "laion/moss-tts-local-transformer-4.55b-voice-acting-v2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/laion/moss-tts-local-transformer-4.55b-voice-acting-v2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 30689,
+        "likes": 0,
+        "last_modified": "2026-07-24T15:50:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lex-au/Orpheus-3b-FT-Q8_0.gguf",
+      "name": "lex-au/Orpheus-3b-FT-Q8_0.gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lex-au/Orpheus-3b-FT-Q8_0.gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2902,
+        "likes": 30,
+        "last_modified": "2025-03-24T09:38:50.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "lex-au/Orpheus-3b-German-FT-Q8_0.gguf",
+      "name": "lex-au/Orpheus-3b-German-FT-Q8_0.gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/lex-au/Orpheus-3b-German-FT-Q8_0.gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2475,
+        "likes": 9,
+        "last_modified": "2025-04-18T00:51:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "maya-research/maya1",
+      "name": "maya-research/maya1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/maya-research/maya1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 9699,
+        "likes": 892,
+        "last_modified": "2026-07-11T14:30:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "maya-research/Veena",
+      "name": "maya-research/Veena",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/maya-research/Veena"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3463,
+        "likes": 237,
+        "last_modified": "2025-10-05T06:17:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "microsoft/speecht5_tts",
+      "name": "microsoft/speecht5_tts",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/microsoft/speecht5_tts"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 57644,
+        "likes": 840,
+        "last_modified": "2023-11-08T14:37:23.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "microsoft/VibeVoice-1.5B",
+      "name": "microsoft/VibeVoice-1.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/microsoft/VibeVoice-1.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 113031,
+        "likes": 2459,
+        "last_modified": "2026-01-22T07:22:28.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "microsoft/VibeVoice-Realtime-0.5B",
+      "name": "microsoft/VibeVoice-Realtime-0.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 670027,
+        "likes": 1271,
+        "last_modified": "2025-12-12T15:35:46.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Misha24-10/F5-TTS_RUSSIAN",
+      "name": "Misha24-10/F5-TTS_RUSSIAN",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Misha24-10/F5-TTS_RUSSIAN"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 54484,
+        "likes": 217,
+        "last_modified": "2026-01-13T21:09:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Kokoro-82M-bf16",
+      "name": "mlx-community/Kokoro-82M-bf16",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Kokoro-82M-bf16"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15030,
+        "likes": 66,
+        "last_modified": "2025-12-02T13:59:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/orpheus-3b-0.1-ft-bf16",
+      "name": "mlx-community/orpheus-3b-0.1-ft-bf16",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/orpheus-3b-0.1-ft-bf16"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 27788,
+        "likes": 4,
+        "last_modified": "2025-03-21T15:59:13.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit",
+      "name": "mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-Base-8bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2742,
+        "likes": 4,
+        "last_modified": "2026-01-25T21:55:50.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-0.6B-Base-bf16",
+      "name": "mlx-community/Qwen3-TTS-12Hz-0.6B-Base-bf16",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-Base-bf16"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5729,
+        "likes": 5,
+        "last_modified": "2026-01-25T21:56:06.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "name": "mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-0.6B-CustomVoice-8bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2585,
+        "likes": 16,
+        "last_modified": "2026-01-25T21:57:29.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+      "name": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3707,
+        "likes": 11,
+        "last_modified": "2026-01-25T22:02:54.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+      "name": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-Base-bf16"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15472,
+        "likes": 20,
+        "last_modified": "2026-01-25T22:03:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit",
+      "name": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4579,
+        "likes": 31,
+        "last_modified": "2026-01-26T20:11:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+      "name": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2617,
+        "likes": 14,
+        "last_modified": "2026-01-25T22:07:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "moonshotai/Kimi-Audio-7B-Instruct",
+      "name": "moonshotai/Kimi-Audio-7B-Instruct",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 78330,
+        "likes": 412,
+        "last_modified": "2025-05-29T03:01:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mudler/magpie-tts.cpp-gguf",
+      "name": "mudler/magpie-tts.cpp-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mudler/magpie-tts.cpp-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 58952,
+        "likes": 1,
+        "last_modified": "2026-07-24T20:48:15.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "mudler/MOSS-TTS-Local-Transformer-v1.5-GGUF",
+      "name": "mudler/MOSS-TTS-Local-Transformer-v1.5-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/mudler/MOSS-TTS-Local-Transformer-v1.5-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 120576,
+        "likes": 1,
+        "last_modified": "2026-07-14T20:13:02.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "multimodalart/higgs-audio-v3-tts-4b-transformers",
+      "name": "multimodalart/higgs-audio-v3-tts-4b-transformers",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/multimodalart/higgs-audio-v3-tts-4b-transformers"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 42374,
+        "likes": 19,
+        "last_modified": "2026-06-05T05:46:07.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-Chinese",
+      "name": "myshell-ai/MeloTTS-Chinese",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-Chinese"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 54677,
+        "likes": 103,
+        "last_modified": "2024-03-01T17:31:35.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-English",
+      "name": "myshell-ai/MeloTTS-English",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-English"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 153246,
+        "likes": 314,
+        "last_modified": "2024-12-24T19:18:31.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-French",
+      "name": "myshell-ai/MeloTTS-French",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-French"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 11659,
+        "likes": 18,
+        "last_modified": "2024-03-01T17:32:59.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-Japanese",
+      "name": "myshell-ai/MeloTTS-Japanese",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-Japanese"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 18010,
+        "likes": 18,
+        "last_modified": "2024-03-01T17:32:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-Korean",
+      "name": "myshell-ai/MeloTTS-Korean",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-Korean"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 78220,
+        "likes": 45,
+        "last_modified": "2024-02-29T16:10:54.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "myshell-ai/MeloTTS-Spanish",
+      "name": "myshell-ai/MeloTTS-Spanish",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/myshell-ai/MeloTTS-Spanish"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 13025,
+        "likes": 30,
+        "last_modified": "2024-03-01T17:30:14.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nari-labs/Dia-1.6B",
+      "name": "nari-labs/Dia-1.6B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nari-labs/Dia-1.6B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 29416,
+        "likes": 2906,
+        "last_modified": "2025-06-01T13:13:54.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nari-labs/Dia-1.6B-0626",
+      "name": "nari-labs/Dia-1.6B-0626",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nari-labs/Dia-1.6B-0626"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 10084,
+        "likes": 134,
+        "last_modified": "2025-07-03T14:45:09.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nari-labs/Dia2-2B",
+      "name": "nari-labs/Dia2-2B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nari-labs/Dia2-2B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5398,
+        "likes": 184,
+        "last_modified": "2025-12-01T07:48:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "NeuML/ljspeech-jets-onnx",
+      "name": "NeuML/ljspeech-jets-onnx",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/NeuML/ljspeech-jets-onnx"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 9385,
+        "likes": 24,
+        "last_modified": "2024-10-10T15:00:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-2e",
+      "name": "neuphonic/neutts-2e",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-2e"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 9159,
+        "likes": 41,
+        "last_modified": "2026-07-22T12:20:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-air",
+      "name": "neuphonic/neutts-air",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-air"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 6690,
+        "likes": 882,
+        "last_modified": "2026-02-12T14:12:11.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-air-q4-gguf",
+      "name": "neuphonic/neutts-air-q4-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-air-q4-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 35802,
+        "likes": 53,
+        "last_modified": "2026-02-10T13:06:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-air-q8-gguf",
+      "name": "neuphonic/neutts-air-q8-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-air-q8-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 57014,
+        "likes": 43,
+        "last_modified": "2026-02-10T13:07:26.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-nano",
+      "name": "neuphonic/neutts-nano",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-nano"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 3340,
+        "likes": 72,
+        "last_modified": "2026-02-12T13:00:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "neuphonic/neutts-nano-german",
+      "name": "neuphonic/neutts-nano-german",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/neuphonic/neutts-nano-german"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 5000,
+        "likes": 20,
+        "last_modified": "2026-02-12T15:39:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nicolajreck/csm-1b-danish-tts",
+      "name": "nicolajreck/csm-1b-danish-tts",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nicolajreck/csm-1b-danish-tts"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12244,
+        "likes": 3,
+        "last_modified": "2025-09-05T09:52:39.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nineninesix/gepard-1.0",
+      "name": "nineninesix/gepard-1.0",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nineninesix/gepard-1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 5070,
+        "likes": 131,
+        "last_modified": "2026-08-06T10:45:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "notmax123/Zonos-Hebrew",
+      "name": "notmax123/Zonos-Hebrew",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/notmax123/Zonos-Hebrew"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 82490,
+        "likes": 3,
+        "last_modified": "2025-09-11T18:22:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "nvidia/magpie_tts_multilingual_357m",
+      "name": "nvidia/magpie_tts_multilingual_357m",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/nvidia/magpie_tts_multilingual_357m"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 12967,
+        "likes": 185,
+        "last_modified": "2026-08-05T14:56:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "onnx-community/Kokoro-82M-ONNX",
+      "name": "onnx-community/Kokoro-82M-ONNX",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/onnx-community/Kokoro-82M-ONNX"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 56154,
+        "likes": 180,
+        "last_modified": "2025-02-07T16:53:13.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "name": "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 1642418,
+        "likes": 246,
+        "last_modified": "2025-02-08T12:15:27.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "onnx-community/Kokoro-82M-v1.0-ONNX-timestamped",
+      "name": "onnx-community/Kokoro-82M-v1.0-ONNX-timestamped",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX-timestamped"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4116,
+        "likes": 8,
+        "last_modified": "2025-02-21T20:14:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "openbmb/VoxCPM-0.5B",
+      "name": "openbmb/VoxCPM-0.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/openbmb/VoxCPM-0.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12618,
+        "likes": 811,
+        "last_modified": "2025-09-19T10:48:31.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "openbmb/VoxCPM1.5",
+      "name": "openbmb/VoxCPM1.5",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/openbmb/VoxCPM1.5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 13491,
+        "likes": 361,
+        "last_modified": "2026-01-14T09:30:23.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "openbmb/VoxCPM2",
+      "name": "openbmb/VoxCPM2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/openbmb/VoxCPM2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 478158,
+        "likes": 1534,
+        "last_modified": "2026-04-16T03:30:11.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS",
+      "name": "OpenMOSS-Team/MOSS-TTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 9137,
+        "likes": 419,
+        "last_modified": "2026-03-20T08:23:50.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS-Local-Transformer",
+      "name": "OpenMOSS-Team/MOSS-TTS-Local-Transformer",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 7304,
+        "likes": 30,
+        "last_modified": "2026-03-20T08:24:57.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
+      "name": "OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer-v1.5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 194045,
+        "likes": 67,
+        "last_modified": "2026-06-18T07:07:33.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "name": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 54569,
+        "likes": 236,
+        "last_modified": "2026-04-13T09:32:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS-Realtime",
+      "name": "OpenMOSS-Team/MOSS-TTS-Realtime",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Realtime"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 61399,
+        "likes": 101,
+        "last_modified": "2026-07-27T14:32:11.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTS-v1.5",
+      "name": "OpenMOSS-Team/MOSS-TTS-v1.5",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-v1.5"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 134171,
+        "likes": 196,
+        "last_modified": "2026-05-26T08:49:43.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-TTSD-v1.0",
+      "name": "OpenMOSS-Team/MOSS-TTSD-v1.0",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTSD-v1.0"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 11840,
+        "likes": 59,
+        "last_modified": "2026-02-14T03:36:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OpenMOSS-Team/MOSS-VoiceGenerator",
+      "name": "OpenMOSS-Team/MOSS-VoiceGenerator",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-VoiceGenerator"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 11698,
+        "likes": 46,
+        "last_modified": "2026-02-11T15:10:06.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OuteAI/Llama-OuteTTS-1.0-1B",
+      "name": "OuteAI/Llama-OuteTTS-1.0-1B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OuteAI/Llama-OuteTTS-1.0-1B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-sa-4.0",
+        "downloads": 2616,
+        "likes": 243,
+        "last_modified": "2025-09-08T10:25:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "OuteAI/OuteTTS-0.1-350M-GGUF",
+      "name": "OuteAI/OuteTTS-0.1-350M-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/OuteAI/OuteTTS-0.1-350M-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-4.0",
+        "downloads": 13636,
+        "likes": 43,
+        "last_modified": "2024-11-27T13:23:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "owensong/Inflect-Micro-v2",
+      "name": "owensong/Inflect-Micro-v2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/owensong/Inflect-Micro-v2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2542,
+        "likes": 428,
+        "last_modified": "2026-07-31T02:40:46.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "parler-tts/parler_tts_mini_v0.1",
+      "name": "parler-tts/parler_tts_mini_v0.1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/parler-tts/parler_tts_mini_v0.1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3749,
+        "likes": 357,
+        "last_modified": "2024-04-30T18:17:59.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "parler-tts/parler-tts-large-v1",
+      "name": "parler-tts/parler-tts-large-v1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/parler-tts/parler-tts-large-v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12121,
+        "likes": 274,
+        "last_modified": "2024-11-22T16:17:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "name": "parler-tts/parler-tts-mini-multilingual-v1.1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/parler-tts/parler-tts-mini-multilingual-v1.1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 239080,
+        "likes": 58,
+        "last_modified": "2024-12-04T18:23:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "parler-tts/parler-tts-mini-v1",
+      "name": "parler-tts/parler-tts-mini-v1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/parler-tts/parler-tts-mini-v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 12352,
+        "likes": 153,
+        "last_modified": "2024-11-25T11:26:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "phuocnguyen90/VieNeu-TTS-v3-Turbo-GGUF",
+      "name": "phuocnguyen90/VieNeu-TTS-v3-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/phuocnguyen90/VieNeu-TTS-v3-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 2358,
+        "likes": 0,
+        "last_modified": "2026-07-21T02:24:10.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-0.3B",
+      "name": "pnnbao-ump/VieNeu-TTS-0.3B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 9662,
+        "likes": 22,
+        "last_modified": "2026-05-02T04:01:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf",
+      "name": "pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B-q4-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 24886,
+        "likes": 6,
+        "last_modified": "2026-03-13T02:05:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-q4-gguf",
+      "name": "pnnbao-ump/VieNeu-TTS-q4-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-q4-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4618,
+        "likes": 2,
+        "last_modified": "2026-01-15T14:29:32.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-v2",
+      "name": "pnnbao-ump/VieNeu-TTS-v2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 55625,
+        "likes": 28,
+        "last_modified": "2026-05-09T00:33:24.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+      "name": "pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v2-Turbo-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4932,
+        "likes": 4,
+        "last_modified": "2026-04-01T05:17:52.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
+      "name": "pnnbao-ump/VieNeu-TTS-v3-Turbo",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/pnnbao-ump/VieNeu-TTS-v3-Turbo"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 349985,
+        "likes": 48,
+        "last_modified": "2026-07-11T11:48:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "prathoshap/vagdhenu",
+      "name": "prathoshap/vagdhenu",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/prathoshap/vagdhenu"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 15025,
+        "likes": 48,
+        "last_modified": "2026-06-28T19:08:53.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "prince-canuma/Kokoro-82M",
+      "name": "prince-canuma/Kokoro-82M",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/prince-canuma/Kokoro-82M"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2802,
+        "likes": 5,
+        "last_modified": "2026-01-05T23:18:37.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "name": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 521427,
+        "likes": 277,
+        "last_modified": "2026-01-29T08:01:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "name": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 1470321,
+        "likes": 175,
+        "last_modified": "2026-01-29T08:01:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "name": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2253286,
+        "likes": 1886,
+        "last_modified": "2026-01-29T08:00:54.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "name": "Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 411211,
+        "likes": 389,
+        "last_modified": "2026-01-29T08:04:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ResembleAI/chatterbox",
+      "name": "ResembleAI/chatterbox",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ResembleAI/chatterbox"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 2106145,
+        "likes": 1742,
+        "last_modified": "2026-06-10T21:16:06.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "ResembleAI/chatterbox-turbo-ONNX",
+      "name": "ResembleAI/chatterbox-turbo-ONNX",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 2252,
+        "likes": 83,
+        "last_modified": "2025-12-15T15:48:47.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "rodrigomt/s2-pro-gguf",
+      "name": "rodrigomt/s2-pro-gguf",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/rodrigomt/s2-pro-gguf"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "other",
+        "downloads": 5874,
+        "likes": 67,
+        "last_modified": "2026-03-21T21:00:08.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "saheedniyi/YarnGPT2",
+      "name": "saheedniyi/YarnGPT2",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/saheedniyi/YarnGPT2"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 4256,
+        "likes": 8,
+        "last_modified": "2025-03-14T14:48:17.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "sbintuitions/sarashina2.2-tts",
+      "name": "sbintuitions/sarashina2.2-tts",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/sbintuitions/sarashina2.2-tts"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 12586,
+        "likes": 69,
+        "last_modified": "2026-07-01T05:45:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Serveurperso/OmniVoice-GGUF",
+      "name": "Serveurperso/OmniVoice-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Serveurperso/OmniVoice-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 160209,
+        "likes": 47,
+        "last_modified": "2026-04-30T13:39:10.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Serveurperso/Qwen3-TTS-GGUF",
+      "name": "Serveurperso/Qwen3-TTS-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Serveurperso/Qwen3-TTS-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 571843,
+        "likes": 32,
+        "last_modified": "2026-05-11T17:33:20.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "shyngys879/KazakhTTS-OmniVoice",
+      "name": "shyngys879/KazakhTTS-OmniVoice",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/shyngys879/KazakhTTS-OmniVoice"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 2966,
+        "likes": 2,
+        "last_modified": "2026-08-14T05:10:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "software-mansion/react-native-executorch-kokoro",
+      "name": "software-mansion/react-native-executorch-kokoro",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/software-mansion/react-native-executorch-kokoro"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 108307,
+        "likes": 2,
+        "last_modified": "2026-08-16T13:45:56.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "speechbrain/tts-hifigan-libritts-22050Hz",
+      "name": "speechbrain/tts-hifigan-libritts-22050Hz",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/speechbrain/tts-hifigan-libritts-22050Hz"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 313176,
+        "likes": 6,
+        "last_modified": "2024-02-25T19:57:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "speechbrain/tts-hifigan-ljspeech",
+      "name": "speechbrain/tts-hifigan-ljspeech",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/speechbrain/tts-hifigan-ljspeech"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3639,
+        "likes": 39,
+        "last_modified": "2024-02-25T23:08:30.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "speechbrain/tts-tacotron2-ljspeech",
+      "name": "speechbrain/tts-tacotron2-ljspeech",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/speechbrain/tts-tacotron2-ljspeech"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3664,
+        "likes": 139,
+        "last_modified": "2024-02-19T15:16:07.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "splendor1811/omnivoice-vietnamese",
+      "name": "splendor1811/omnivoice-vietnamese",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/splendor1811/omnivoice-vietnamese"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2542,
+        "likes": 24,
+        "last_modified": "2026-04-09T11:07:03.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SPRINGLab/Indic-Mio",
+      "name": "SPRINGLab/Indic-Mio",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SPRINGLab/Indic-Mio"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 9502,
+        "likes": 28,
+        "last_modified": "2026-05-27T08:23:38.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Sunbird/orpheus-3b-tts-multilingual",
+      "name": "Sunbird/orpheus-3b-tts-multilingual",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Sunbird/orpheus-3b-tts-multilingual"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2301,
+        "likes": 2,
+        "last_modified": "2026-06-15T09:55:02.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "suno/bark",
+      "name": "suno/bark",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/suno/bark"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 37978,
+        "likes": 1553,
+        "last_modified": "2023-10-04T14:17:55.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "suno/bark-small",
+      "name": "suno/bark-small",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/suno/bark-small"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 97871,
+        "likes": 262,
+        "last_modified": "2023-11-10T10:11:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Supertone/supertonic-3",
+      "name": "Supertone/supertonic-3",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Supertone/supertonic-3"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "openrail",
+        "downloads": 26578,
+        "likes": 923,
+        "last_modified": "2026-05-18T08:59:01.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SWivid/E2-TTS",
+      "name": "SWivid/E2-TTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SWivid/E2-TTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 118858,
+        "likes": 57,
+        "last_modified": "2025-03-12T08:56:42.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "SWivid/F5-TTS",
+      "name": "SWivid/F5-TTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/SWivid/F5-TTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "cc-by-nc-4.0",
+        "downloads": 763696,
+        "likes": 1193,
+        "last_modified": "2025-03-21T05:05:00.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/csm-1b",
+      "name": "unsloth/csm-1b",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/csm-1b"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3090,
+        "likes": 21,
+        "last_modified": "2025-05-15T21:52:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/orpheus-3b-0.1-ft",
+      "name": "unsloth/orpheus-3b-0.1-ft",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/orpheus-3b-0.1-ft"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 26370,
+        "likes": 15,
+        "last_modified": "2025-07-09T08:27:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/orpheus-3b-0.1-ft-GGUF",
+      "name": "unsloth/orpheus-3b-0.1-ft-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/orpheus-3b-0.1-ft-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 7786,
+        "likes": 24,
+        "last_modified": "2025-07-09T12:26:12.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit",
+      "name": "unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/orpheus-3b-0.1-ft-unsloth-bnb-4bit"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2457,
+        "likes": 20,
+        "last_modified": "2025-03-24T21:59:51.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "unsloth/orpheus-3b-0.1-pretrained",
+      "name": "unsloth/orpheus-3b-0.1-pretrained",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/unsloth/orpheus-3b-0.1-pretrained"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 2639,
+        "likes": 3,
+        "last_modified": "2025-03-26T20:43:36.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "vibevoice/VibeVoice-1.5B",
+      "name": "vibevoice/VibeVoice-1.5B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/vibevoice/VibeVoice-1.5B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 44571,
+        "likes": 31,
+        "last_modified": "2025-09-05T04:08:25.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "vibevoice/VibeVoice-7B",
+      "name": "vibevoice/VibeVoice-7B",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/vibevoice/VibeVoice-7B"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "mit",
+        "downloads": 33997,
+        "likes": 211,
+        "last_modified": "2025-09-05T16:32:04.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wasmdashai/lahja-sa-ahmad-v1",
+      "name": "wasmdashai/lahja-sa-ahmad-v1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wasmdashai/lahja-sa-ahmad-v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 40554,
+        "likes": 5,
+        "last_modified": "2026-07-16T10:57:28.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "wasmdashai/lahja-sa-huba-v1",
+      "name": "wasmdashai/lahja-sa-huba-v1",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/wasmdashai/lahja-sa-huba-v1"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 20787,
+        "likes": 3,
+        "last_modified": "2026-07-16T10:56:45.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Xenova/speecht5_tts",
+      "name": "Xenova/speecht5_tts",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Xenova/speecht5_tts"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": null,
+        "downloads": 8089,
+        "likes": 42,
+        "last_modified": "2025-08-27T22:30:58.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "YatharthS/LuxTTS",
+      "name": "YatharthS/LuxTTS",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/YatharthS/LuxTTS"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 7378,
+        "likes": 204,
+        "last_modified": "2026-01-23T21:25:19.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Zyphra/Zonos-v0.1-transformer",
+      "name": "Zyphra/Zonos-v0.1-transformer",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Zyphra/Zonos-v0.1-transformer"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 107768,
+        "likes": 435,
+        "last_modified": "2025-06-03T00:31:22.000Z"
+      }
+    },
+    {
+      "provider": "huggingface",
+      "id": "Zyphra/ZONOS2-GGUF",
+      "name": "Zyphra/ZONOS2-GGUF",
+      "description": null,
+      "capabilities": [
+        "speech_synthesis"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "audio"
+      ],
+      "context_length": null,
+      "supported_parameters": [],
+      "access": {
+        "type": "open_weights",
+        "pricing": null,
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_task",
+        "confidence": "high"
+      },
+      "source": {
+        "catalogue": "https://huggingface.co/api/models",
+        "model_url": "https://huggingface.co/Zyphra/ZONOS2-GGUF"
+      },
+      "metadata": {
+        "pipeline_tags": [
+          "text-to-speech"
+        ],
+        "license": "apache-2.0",
+        "downloads": 3814,
+        "likes": 2,
+        "last_modified": "2026-06-22T22:19:04.000Z"
+      }
+    }
+  ]
+}

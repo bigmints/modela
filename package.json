@@ -1,0 +1,20 @@
+{
+  "name": "@bigmints/modela",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic catalogue of free hosted, open-weight, and local AI models",
+  "type": "module",
+  "bin": {
+    "modela": "./src/cli.mjs"
+  },
+  "scripts": {
+    "update": "node src/cli.mjs update",
+    "diff": "node src/cli.mjs update --dry-run",
+    "status": "node src/cli.mjs status",
+    "validate": "node src/cli.mjs validate",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

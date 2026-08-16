@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T18:01:54.233Z",
+  "catalogue_hash": "f1dd67c564eda2b48494bb1c7ef15a94a15ede30b7825e6d36b70811c36ceefe",
+  "model_count": 2,
+  "models": [
+    {
+      "provider": "openrouter",
+      "id": "google/lyria-3-clip-preview",
+      "name": "Google: Lyria 3 Clip Preview",
+      "description": "30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate...",
+      "capabilities": [
+        "audio_generation",
+        "multimodal_understanding",
+        "music_generation",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "audio",
+        "text"
+      ],
+      "context_length": 1048576,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/google/lyria-3-clip-preview"
+      },
+      "metadata": {
+        "canonical_slug": "google/lyria-3-clip-preview-20260330",
+        "hugging_face_id": null,
+        "created": 1774907255,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "google/lyria-3-pro-preview",
+      "name": "Google: Lyria 3 Pro Preview",
+      "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz...",
+      "capabilities": [
+        "audio_generation",
+        "multimodal_understanding",
+        "music_generation",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "audio",
+        "text"
+      ],
+      "context_length": 1048576,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/google/lyria-3-pro-preview"
+      },
+      "metadata": {
+        "canonical_slug": "google/lyria-3-pro-preview-20260330",
+        "hugging_face_id": null,
+        "created": 1774907286,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    }
+  ]
+}

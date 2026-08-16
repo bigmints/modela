@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-16T18:01:54.233Z",
+  "catalogue_hash": "f1dd67c564eda2b48494bb1c7ef15a94a15ede30b7825e6d36b70811c36ceefe",
+  "model_count": 1182,
+  "catalogue": "data/catalog.json",
+  "feeds": {
+    "chat": {
+      "path": "data/chat.json",
+      "model_count": 19
+    },
+    "tts": {
+      "path": "data/tts.json",
+      "model_count": 191
+    },
+    "transcription": {
+      "path": "data/transcription.json",
+      "model_count": 190
+    },
+    "embeddings": {
+      "path": "data/embeddings.json",
+      "model_count": 396
+    },
+    "image-generation": {
+      "path": "data/image-generation.json",
+      "model_count": 189
+    },
+    "video-generation": {
+      "path": "data/video-generation.json",
+      "model_count": 197
+    },
+    "audio-generation": {
+      "path": "data/audio-generation.json",
+      "model_count": 2
+    },
+    "hosted-free": {
+      "path": "data/hosted-free.json",
+      "model_count": 19
+    },
+    "open-weights": {
+      "path": "data/open-weights.json",
+      "model_count": 1163
+    },
+    "local-models": {
+      "path": "data/local-models.json",
+      "model_count": 0
+    }
+  }
+}

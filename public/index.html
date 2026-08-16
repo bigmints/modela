@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modela</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+      body { max-width: 720px; margin: 64px auto; padding: 0 20px; line-height: 1.5; }
+      h1 { margin-bottom: 4px; }
+      p { color: #777; }
+      ul { padding-left: 20px; }
+      a { color: inherit; }
+      code { font-size: 0.9em; }
+    </style>
+  </head>
+  <body>
+    <h1>Modela</h1>
+    <p id="summary">Loading the latest catalogue…</p>
+    <ul id="feeds"></ul>
+    <script type="module">
+      const response = await fetch("data/index.json");
+      if (!response.ok) throw new Error(`Catalogue unavailable: ${response.status}`);
+      const index = await response.json();
+      document.querySelector("#summary").textContent =
+        `${index.model_count} models · updated ${new Date(index.generated_at).toLocaleString()}`;
+      const feeds = document.querySelector("#feeds");
+      for (const [name, feed] of Object.entries(index.feeds)) {
+        const item = document.createElement("li");
+        const link = document.createElement("a");
+        link.href = feed.path.replace(/^data\//, "data/");
+        link.textContent = `${name} (${feed.model_count})`;
+        item.append(link);
+        feeds.append(item);
+      }
+      const item = document.createElement("li");
+      item.innerHTML = `<a href="${index.catalogue}">complete catalogue</a>`;
+      feeds.prepend(item);
+    </script>
+  </body>
+</html>
