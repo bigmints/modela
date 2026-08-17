@@ -10,6 +10,7 @@
   "scripts": {
     "update": "node src/cli.mjs update",
     "diff": "node src/cli.mjs update --dry-run",
+    "serve": "node src/serve.mjs",
     "status": "node src/cli.mjs status",
     "validate": "node src/cli.mjs validate",
     "test": "node --test"

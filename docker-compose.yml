@@ -3,6 +3,8 @@ services:
     build: .
     user: "${MODELA_UID:-1000}:${MODELA_GID:-1000}"
     working_dir: /app
+    ports:
+      - "127.0.0.1:4173:4173"
     volumes:
       - .:/app
     environment:
