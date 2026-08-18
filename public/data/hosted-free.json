@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T01:15:12.489Z",
-  "catalogue_hash": "3515ce62a35369f433b2706f3452a3789e2b8c20076bbce8f621101a53ecbdfa",
-  "model_count": 20,
+  "generated_at": "2026-08-18T01:15:56.905Z",
+  "catalogue_hash": "f1e2796b60294f1bdb64dc432670f826cfb94cdeaa4c9c119fa030f5eba84053",
+  "model_count": 19,
   "models": [
     {
       "provider": "openrouter",
@@ -321,66 +321,6 @@
         "canonical_slug": "google/lyria-3-pro-preview-20260330",
         "hugging_face_id": null,
         "created": 1774907286,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 128000,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free"
-      },
-      "metadata": {
-        "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-        "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-        "created": 1786470519,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
@@ -870,7 +810,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "presence_penalty",
