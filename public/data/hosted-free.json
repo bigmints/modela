@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-21T01:16:03.914Z",
-  "catalogue_hash": "bd1c8edbb8d28db2fdd25c5810d0df086e58204a3adfcbd6e080b18e95cd0f5f",
-  "model_count": 21,
+  "generated_at": "2026-08-22T01:15:40.863Z",
+  "catalogue_hash": "fe371413e6f85322664ade484ef695470f4cfc20d24ca099f0924f028538f04d",
+  "model_count": 22,
   "models": [
     {
       "provider": "openrouter",
@@ -331,7 +331,7 @@
       "output_modalities": [
         "text"
       ],
-      "context_length": 128000,
+      "context_length": 65536,
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
@@ -784,65 +784,6 @@
     },
     {
       "provider": "openrouter",
-      "id": "openai/gpt-oss-20b:free",
-      "name": "OpenAI: gpt-oss-20b (free)",
-      "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 131072,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/openai/gpt-oss-20b:free"
-      },
-      "metadata": {
-        "canonical_slug": "openai/gpt-oss-20b",
-        "hugging_face_id": "openai/gpt-oss-20b",
-        "created": 1754414229,
-        "knowledge_cutoff": "2024-06-30",
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
       "id": "openrouter/free",
       "name": "Free Models Router",
       "description": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that...",
@@ -1050,6 +991,116 @@
         "created": 1787256295,
         "knowledge_cutoff": null,
         "expiration_date": "2098-12-31"
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "thinkingmachines/inkling-small:free",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+      "capabilities": [
+        "multimodal_understanding",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "audio",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/thinkingmachines/inkling-small:free"
+      },
+      "metadata": {
+        "canonical_slug": "thinkingmachines/inkling-small-20260730",
+        "hugging_face_id": "thinkingmachines/Inkling-Small",
+        "created": 1785443117,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "thinkingmachines/inkling:free",
+      "name": "Thinking Machines: Inkling (free)",
+      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+      "capabilities": [
+        "multimodal_understanding",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "audio",
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/thinkingmachines/inkling:free"
+      },
+      "metadata": {
+        "canonical_slug": "thinkingmachines/inkling-20260715",
+        "hugging_face_id": "thinkingmachines/Inkling",
+        "created": 1784325956,
+        "knowledge_cutoff": null,
+        "expiration_date": null
       }
     },
     {
