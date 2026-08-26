@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T01:15:26.889Z",
-  "catalogue_hash": "a44d9e60eca222289a89a28d31e518b514100a1533458dff6d818d14930edaa3",
-  "model_count": 19,
+  "generated_at": "2026-08-26T01:15:32.106Z",
+  "catalogue_hash": "bd87b035db79d67bcc077bcf12ffea443973cb993cb3a772e9b77f614c10e4ce",
+  "model_count": 21,
   "sources": [
     {
       "source": "openrouter",
       "discovered": 417,
-      "accepted": 19
+      "accepted": 21
     }
   ],
   "models": [
@@ -380,6 +380,109 @@
         "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
         "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
         "created": 1786470519,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "minimax/minimax-m2.7:free",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 196608,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/minimax/minimax-m2.7:free"
+      },
+      "metadata": {
+        "canonical_slug": "minimax/minimax-m2.7-20260318",
+        "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
+        "created": 1773836697,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "capabilities": [
+        "multimodal_understanding",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 1048576,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/minimax/minimax-m3:free"
+      },
+      "metadata": {
+        "canonical_slug": "minimax/minimax-m3-20260531",
+        "hugging_face_id": "MiniMaxAI/Minimax-M3",
+        "created": 1780245374,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
