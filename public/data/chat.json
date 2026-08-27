@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-26T01:15:32.106Z",
-  "catalogue_hash": "bd87b035db79d67bcc077bcf12ffea443973cb993cb3a772e9b77f614c10e4ce",
-  "model_count": 21,
+  "generated_at": "2026-08-27T01:15:38.595Z",
+  "catalogue_hash": "ecef372d946580c7fe382418ff8c9cd34b4739724667fe551cf34fe92a5ae6f8",
+  "model_count": 20,
   "models": [
     {
       "provider": "openrouter",
@@ -888,60 +888,6 @@
         "created": 1783002429,
         "knowledge_cutoff": null,
         "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "stealth/ox-alpha",
-      "name": "Ox Alpha",
-      "description": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. It is suited for long-horizon software engineering, complex reasoning, and workflows that combine text with...",
-      "capabilities": [
-        "multimodal_understanding",
-        "text_generation"
-      ],
-      "input_modalities": [
-        "image",
-        "text",
-        "video"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 1048576,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/stealth/ox-alpha"
-      },
-      "metadata": {
-        "canonical_slug": "stealth/ox-alpha",
-        "hugging_face_id": null,
-        "created": 1787256295,
-        "knowledge_cutoff": null,
-        "expiration_date": "2098-12-31"
       }
     },
     {
