@@ -24,5 +24,6 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "chore(catalog): refresh model catalogue"
-git push origin HEAD
+git pull --rebase origin HEAD || { echo '{"published":false,"reason":"rebase_failed"}'; exit 1; }
+git push origin HEAD || { echo '{"published":false,"reason":"push_failed"}'; exit 1; }
 echo '{"published":true}'
