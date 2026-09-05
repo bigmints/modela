@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-28T01:15:28.519Z",
-  "catalogue_hash": "0e9f56907518a4d3eaf9ad89de2cd40ae0cd1fe20f2487ad40422b1c050f0218",
-  "model_count": 21,
+  "generated_at": "2026-09-05T01:15:21.795Z",
+  "catalogue_hash": "ff5fff762411ca19b921e6dde54174b1750f4dbd36e4493abe013da74551c053",
+  "model_count": 22,
   "models": [
     {
       "provider": "openrouter",
@@ -320,7 +320,7 @@
     {
       "provider": "openrouter",
       "id": "inclusionai/ling-3.0-flash-fin:free",
-      "name": "Ling 3.0 Flash Fin (free)",
+      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
       "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
       "capabilities": [
         "text_generation"
@@ -369,6 +369,62 @@
         "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
         "hugging_face_id": null,
         "created": 1787846290,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+      "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/inclusionai/ling-3.0-flash-sante:free"
+      },
+      "metadata": {
+        "canonical_slug": "inclusionai/ling-3.0-flash-sante-20260904",
+        "hugging_face_id": null,
+        "created": 1788545946,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
