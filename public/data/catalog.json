@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-05T01:15:21.795Z",
-  "catalogue_hash": "ff5fff762411ca19b921e6dde54174b1750f4dbd36e4493abe013da74551c053",
-  "model_count": 22,
+  "generated_at": "2026-09-07T01:15:54.773Z",
+  "catalogue_hash": "4dbe70d4424920be9c59b5619b500d5cd6fbbf0a381f29ed3750380017406fb3",
+  "model_count": 21,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 431,
-      "accepted": 22
+      "discovered": 430,
+      "accepted": 21
     }
   ],
   "models": [
@@ -1115,64 +1115,6 @@
         "canonical_slug": "thinkingmachines/inkling-20260715",
         "hugging_face_id": "thinkingmachines/Inkling",
         "created": 1784325956,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "z-ai/glm-5.2:free",
-      "name": "Z.ai: GLM 5.2 (free)",
-      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 256000,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/z-ai/glm-5.2:free"
-      },
-      "metadata": {
-        "canonical_slug": "z-ai/glm-5.2-20260616",
-        "hugging_face_id": "zai-org/GLM-5.2",
-        "created": 1781631930,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
