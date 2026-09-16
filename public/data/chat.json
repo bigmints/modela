@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T01:15:37.200Z",
-  "catalogue_hash": "dede3aedc5c7ea8c87619d056baa998c66dda026c0b7438424db258fa1af64d7",
-  "model_count": 22,
+  "generated_at": "2026-09-16T01:15:12.844Z",
+  "catalogue_hash": "3801400b7e3767a1f7dd98a9da3109ef041c3cfbb774f95889c323a9ab161840",
+  "model_count": 23,
   "models": [
     {
       "provider": "openrouter",
@@ -1175,6 +1175,60 @@
         "canonical_slug": "thinkingmachines/inkling-20260715",
         "hugging_face_id": "thinkingmachines/Inkling",
         "created": 1784325956,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "z-ai/glm-5.2:free",
+      "name": "Z.ai: GLM 5.2 (free)",
+      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 32768,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/z-ai/glm-5.2:free"
+      },
+      "metadata": {
+        "canonical_slug": "z-ai/glm-5.2-20260616",
+        "hugging_face_id": "zai-org/GLM-5.2",
+        "created": 1781631930,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
