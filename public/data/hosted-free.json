@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T01:15:16.386Z",
-  "catalogue_hash": "77de1ab4fd7bb93e8f822c9e285f9f91ed26a579126aa642005bbbb715a13540",
-  "model_count": 24,
+  "generated_at": "2026-09-18T01:15:46.884Z",
+  "catalogue_hash": "a6506aabb4de195fae075864f6b4cfd33f96cbe10c10705d667d2629c7e09285",
+  "model_count": 25,
   "models": [
     {
       "provider": "openrouter",
@@ -53,6 +53,65 @@
         "canonical_slug": "cohere/north-mini-code-20260617",
         "hugging_face_id": "CohereLabs/North-Mini-Code-1.0",
         "created": 1781723748,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "deepseek/deepseek-v4-flash-0731:free",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+      "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 1048576,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/deepseek/deepseek-v4-flash-0731:free"
+      },
+      "metadata": {
+        "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
+        "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "created": 1785478908,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
@@ -932,6 +991,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
@@ -1071,24 +1131,32 @@
     },
     {
       "provider": "openrouter",
-      "id": "stealth/union-alpha",
-      "name": "Union Alpha",
-      "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+      "id": "qwen/qwen3.8-27b:free",
+      "name": "Qwen: Qwen3.8 27B (free)",
+      "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
       "capabilities": [
         "multimodal_understanding",
         "text_generation"
       ],
       "input_modalities": [
         "image",
-        "text"
+        "text",
+        "video"
       ],
       "output_modalities": [
         "text"
       ],
       "context_length": 262144,
       "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
         "max_tokens",
-        "response_format",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -1108,14 +1176,14 @@
       },
       "source": {
         "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/stealth/union-alpha"
+        "model_url": "https://openrouter.ai/qwen/qwen3.8-27b:free"
       },
       "metadata": {
-        "canonical_slug": "stealth/union-alpha",
-        "hugging_face_id": null,
-        "created": 1789569723,
+        "canonical_slug": "qwen/qwen3.8-27b-20260814",
+        "hugging_face_id": "Qwen/Qwen3.8-27B",
+        "created": 1786722910,
         "knowledge_cutoff": null,
-        "expiration_date": "2098-12-31"
+        "expiration_date": null
       }
     },
     {
