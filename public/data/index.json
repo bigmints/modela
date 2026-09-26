@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T01:15:54.341Z",
-  "catalogue_hash": "079f583d4a62b8acde5c40eb03303ccb7147f74726142589a57f343c47638bb8",
-  "model_count": 24,
+  "generated_at": "2026-09-26T01:15:55.915Z",
+  "catalogue_hash": "b0f47fdbf2d4761d1b33170b9cc47d7775bdf674cb07ff15368f41d1931a375a",
+  "model_count": 21,
   "catalogue": "data/catalog.json",
   "feeds": {
     "chat": {
       "path": "data/chat.json",
-      "model_count": 24
+      "model_count": 21
     },
     "tts": {
       "path": "data/tts.json",
@@ -35,7 +35,7 @@
     },
     "hosted-free": {
       "path": "data/hosted-free.json",
-      "model_count": 24
+      "model_count": 21
     }
   }
 }
