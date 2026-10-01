@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T01:15:35.138Z",
-  "catalogue_hash": "0741c1c596313039896abaeca856be74774da40b657846f4f958ba0bcd2b081e",
+  "generated_at": "2026-10-01T01:15:13.613Z",
+  "catalogue_hash": "12ffc3120310be7bc959ebc83a8f02eaf334cddb0d489a3ee8a2f77a0c4ffb0b",
   "model_count": 20,
   "models": [
     {
@@ -950,7 +950,7 @@
         "hugging_face_id": null,
         "created": 1790174884,
         "knowledge_cutoff": null,
-        "expiration_date": null
+        "expiration_date": "2026-10-05"
       }
     },
     {
