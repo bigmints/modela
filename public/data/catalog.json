@@ -1,16 +1,72 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T01:15:13.613Z",
-  "catalogue_hash": "12ffc3120310be7bc959ebc83a8f02eaf334cddb0d489a3ee8a2f77a0c4ffb0b",
-  "model_count": 20,
+  "generated_at": "2026-10-02T01:15:57.280Z",
+  "catalogue_hash": "ce173f63be68a1d81798adf9f7d0542e712d1d030631aa79b2a2e58bc356fa8c",
+  "model_count": 21,
   "sources": [
     {
       "source": "openrouter",
       "discovered": 464,
-      "accepted": 20
+      "accepted": 21
     }
   ],
   "models": [
+    {
+      "provider": "openrouter",
+      "id": "apodex/apodex-1.1-mini:free",
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/apodex/apodex-1.1-mini:free"
+      },
+      "metadata": {
+        "canonical_slug": "apodex/apodex-1.1-mini-20261001",
+        "hugging_face_id": null,
+        "created": 1790875335,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
     {
       "provider": "openrouter",
       "id": "cohere/north-mini-code:free",
@@ -113,7 +169,7 @@
         "hugging_face_id": null,
         "created": 1786680361,
         "knowledge_cutoff": null,
-        "expiration_date": null
+        "expiration_date": "2026-12-31"
       }
     },
     {
