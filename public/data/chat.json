@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T01:15:57.280Z",
-  "catalogue_hash": "ce173f63be68a1d81798adf9f7d0542e712d1d030631aa79b2a2e58bc356fa8c",
-  "model_count": 21,
+  "generated_at": "2026-10-03T01:15:17.883Z",
+  "catalogue_hash": "c8c8baf3b4aee9f7fb75e3e9ea6e08c704d963f984482335ca6b803148d0f8b0",
+  "model_count": 22,
   "models": [
     {
       "provider": "openrouter",
@@ -431,6 +431,62 @@
     },
     {
       "provider": "openrouter",
+      "id": "inclusionai/ling-3.1-flash",
+      "name": "inclusionAI: Ling 3.1 Flash",
+      "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/inclusionai/ling-3.1-flash"
+      },
+      "metadata": {
+        "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
+        "hugging_face_id": null,
+        "created": 1790950024,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
@@ -849,7 +905,7 @@
         "hugging_face_id": "poolside/Laguna-S-2.1",
         "created": 1784652683,
         "knowledge_cutoff": null,
-        "expiration_date": null
+        "expiration_date": "2026-10-31"
       }
     },
     {
@@ -896,7 +952,7 @@
         "hugging_face_id": "poolside/Laguna-XS-2.1",
         "created": 1783002429,
         "knowledge_cutoff": null,
-        "expiration_date": null
+        "expiration_date": "2026-10-31"
       }
     },
     {
