@@ -1,65 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T01:15:23.087Z",
-  "catalogue_hash": "7001ee23f0738e73eeaf899d9315013bdc81510b460359b3a1ea4a29b2e8932e",
-  "model_count": 19,
+  "generated_at": "2026-10-14T01:15:52.737Z",
+  "catalogue_hash": "43e9b4afc0fa7cb686af481cb20f38b8682d3321a548413e7517b4f9f47b59e1",
+  "model_count": 17,
   "models": [
-    {
-      "provider": "openrouter",
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 262144,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/apodex/apodex-1.1-mini:free"
-      },
-      "metadata": {
-        "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-        "hugging_face_id": null,
-        "created": 1790875335,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
     {
       "provider": "openrouter",
       "id": "cohere/north-mini-code:free",
@@ -375,62 +319,6 @@
     },
     {
       "provider": "openrouter",
-      "id": "inclusionai/ling-3.1-flash",
-      "name": "inclusionAI: Ling 3.1 Flash",
-      "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 262144,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/inclusionai/ling-3.1-flash"
-      },
-      "metadata": {
-        "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
-        "hugging_face_id": null,
-        "created": 1790950024,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
       "id": "liquid/lfm-2.5-2.6b:free",
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
@@ -462,8 +350,7 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
-        "top_p"
+        "top_logprobs"
       ],
       "access": {
         "type": "hosted_free",
