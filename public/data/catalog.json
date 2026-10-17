@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T01:16:04.504Z",
-  "catalogue_hash": "eb28636859935bb95c8e053318f1cb2af8c38eb3fc8ae13694e18f91d546c74e",
-  "model_count": 18,
+  "generated_at": "2026-10-17T01:15:40.526Z",
+  "catalogue_hash": "6d50628939c6dcd368d81848c5acd60fec3df4b63d523e9ea1f2a06d11d01935",
+  "model_count": 19,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 465,
-      "accepted": 18
+      "discovered": 468,
+      "accepted": 19
     }
   ],
   "models": [
@@ -953,6 +953,63 @@
         "canonical_slug": "thinkingmachines/inkling-20260715",
         "hugging_face_id": "thinkingmachines/Inkling",
         "created": 1784325956,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/xingchen-agi/xing4.0-29b-a4b:free"
+      },
+      "metadata": {
+        "canonical_slug": "xingchen-agi/xing4.0-29b-a4b-20261015",
+        "hugging_face_id": "XingChen-AGI/Xing4.0-29B-A4B",
+        "created": 1792177496,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
