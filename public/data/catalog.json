@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T01:15:40.526Z",
-  "catalogue_hash": "6d50628939c6dcd368d81848c5acd60fec3df4b63d523e9ea1f2a06d11d01935",
-  "model_count": 19,
+  "generated_at": "2026-10-20T01:16:11.203Z",
+  "catalogue_hash": "241b1ce60bc93fe9d271fa929bea4f5a150a4ab37d570456905f3f3611a5d62a",
+  "model_count": 20,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 468,
-      "accepted": 19
+      "discovered": 470,
+      "accepted": 20
     }
   ],
   "models": [
@@ -379,6 +379,59 @@
         "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
         "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
         "created": 1786470519,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "minimax/minimax-m3.1-flash:free",
+      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+      "capabilities": [
+        "multimodal_understanding",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "image",
+        "text",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 1000000,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/minimax/minimax-m3.1-flash:free"
+      },
+      "metadata": {
+        "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+        "hugging_face_id": null,
+        "created": 1792379569,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
