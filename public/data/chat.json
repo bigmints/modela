@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T01:16:11.203Z",
-  "catalogue_hash": "241b1ce60bc93fe9d271fa929bea4f5a150a4ab37d570456905f3f3611a5d62a",
-  "model_count": 20,
+  "generated_at": "2026-10-22T01:15:30.313Z",
+  "catalogue_hash": "ab180ee92dac99f9b1ffc09bfc30c10222300c5fc5845c128447d33c6d7a88dc",
+  "model_count": 21,
   "models": [
     {
       "provider": "openrouter",
@@ -891,6 +891,58 @@
         "created": 1783002429,
         "knowledge_cutoff": null,
         "expiration_date": "2026-10-31"
+      }
+    },
+    {
+      "provider": "openrouter",
+      "id": "recursive/flint-v1.0:free",
+      "name": "Recursive: Flint (free)",
+      "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/recursive/flint-v1.0:free"
+      },
+      "metadata": {
+        "canonical_slug": "recursive/flint-v1.0-20261021",
+        "hugging_face_id": "RecursiveSI/flint",
+        "created": 1792622765,
+        "knowledge_cutoff": null,
+        "expiration_date": null
       }
     },
     {
