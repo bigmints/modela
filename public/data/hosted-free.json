@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T01:15:46.716Z",
-  "catalogue_hash": "8a7837b265e69151f144aecd83d3b81d4290381b107a626bea4e947c1bdec9c6",
-  "model_count": 20,
+  "generated_at": "2026-10-28T02:16:10.462Z",
+  "catalogue_hash": "5447740b285a3a591102c6f5a6a1fd99168f0a91f2e32f691c449b434b2c5300",
+  "model_count": 19,
   "models": [
     {
       "provider": "openrouter",
@@ -425,58 +425,6 @@
         "canonical_slug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428",
         "hugging_face_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
         "created": 1777393095,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 262144,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free"
-      },
-      "metadata": {
-        "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
-        "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-        "created": 1773245239,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
