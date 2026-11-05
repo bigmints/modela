@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T02:16:03.685Z",
-  "catalogue_hash": "6d250685b1ddd837b71798c01235897fe4bc7a6a7ee336f223901d6711f1b332",
-  "model_count": 18,
+  "generated_at": "2026-11-05T02:15:43.072Z",
+  "catalogue_hash": "02ca95cbb66e518652255b4d0312eed421c630dd84e0281f2021026e9a091578",
+  "model_count": 16,
   "models": [
     {
       "provider": "openrouter",
@@ -801,116 +801,6 @@
         "created": 1793669930,
         "knowledge_cutoff": null,
         "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "thinkingmachines/inkling-small:free",
-      "name": "Thinking Machines: Inkling Small (free)",
-      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-      "capabilities": [
-        "multimodal_understanding",
-        "text_generation"
-      ],
-      "input_modalities": [
-        "audio",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 1048576,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "seed",
-        "stop",
-        "temperature",
-        "tools",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/thinkingmachines/inkling-small:free"
-      },
-      "metadata": {
-        "canonical_slug": "thinkingmachines/inkling-small-20260730",
-        "hugging_face_id": "thinkingmachines/Inkling-Small",
-        "created": 1785443117,
-        "knowledge_cutoff": null,
-        "expiration_date": "2026-11-04"
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "thinkingmachines/inkling:free",
-      "name": "Thinking Machines: Inkling (free)",
-      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-      "capabilities": [
-        "multimodal_understanding",
-        "text_generation"
-      ],
-      "input_modalities": [
-        "audio",
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 1048576,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "seed",
-        "stop",
-        "temperature",
-        "tools",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/thinkingmachines/inkling:free"
-      },
-      "metadata": {
-        "canonical_slug": "thinkingmachines/inkling-20260715",
-        "hugging_face_id": "thinkingmachines/Inkling",
-        "created": 1784325956,
-        "knowledge_cutoff": null,
-        "expiration_date": "2026-11-04"
       }
     },
     {
