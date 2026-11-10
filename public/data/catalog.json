@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T02:15:51.241Z",
-  "catalogue_hash": "2ba3bf35f3b9cef325a543da6668995f3a072af756f5caa48aa218974d551fef",
+  "generated_at": "2026-11-10T02:16:07.152Z",
+  "catalogue_hash": "c042887214f6eeb49ea7d1c6f56333fbb5458179872892d163fd044c553f8803",
   "model_count": 16,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 460,
+      "discovered": 464,
       "accepted": 16
     }
   ],
@@ -767,19 +767,16 @@
     },
     {
       "provider": "openrouter",
-      "id": "stealth/crouton-alpha",
-      "name": "Crouton Alpha",
-      "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+      "id": "thinkingmachines/inkling-2-small:free",
+      "name": "Thinking Machines: Inkling 2 Small (free)",
+      "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
       "capabilities": [
         "multimodal_understanding",
         "text_generation"
       ],
       "input_modalities": [
-        "audio",
-        "file",
         "image",
-        "text",
-        "video"
+        "text"
       ],
       "output_modalities": [
         "text"
@@ -790,10 +787,9 @@
         "max_tokens",
         "reasoning",
         "reasoning_effort",
-        "response_format",
-        "structured_outputs",
+        "seed",
+        "stop",
         "temperature",
-        "tool_choice",
         "tools",
         "top_p"
       ],
@@ -811,12 +807,12 @@
       },
       "source": {
         "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/stealth/crouton-alpha"
+        "model_url": "https://openrouter.ai/thinkingmachines/inkling-2-small:free"
       },
       "metadata": {
-        "canonical_slug": "stealth/crouton-alpha",
+        "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
         "hugging_face_id": null,
-        "created": 1793669930,
+        "created": 1794261847,
         "knowledge_cutoff": null,
         "expiration_date": null
       }

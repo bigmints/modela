@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T02:15:51.241Z",
-  "catalogue_hash": "2ba3bf35f3b9cef325a543da6668995f3a072af756f5caa48aa218974d551fef",
+  "generated_at": "2026-11-10T02:16:07.152Z",
+  "catalogue_hash": "c042887214f6eeb49ea7d1c6f56333fbb5458179872892d163fd044c553f8803",
   "model_count": 16,
   "catalogue": "data/catalog.json",
   "feeds": {
