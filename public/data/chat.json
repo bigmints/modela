@@ -1,9 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T02:15:39.350Z",
-  "catalogue_hash": "7780f3747b1e2133635d281a8523d87a2c8754e336fa85abb992b05760fd79d5",
-  "model_count": 16,
+  "generated_at": "2026-11-13T02:16:25.789Z",
+  "catalogue_hash": "6cfb3a1e74ab16d0cf2cb5b45b2f749ee1615e4fd700ae70759bec2199932c5a",
+  "model_count": 18,
   "models": [
+    {
+      "provider": "openrouter",
+      "id": "apodex/apodex-1.1-mini:free",
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+      "capabilities": [
+        "text_generation"
+      ],
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 262144,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/apodex/apodex-1.1-mini:free"
+      },
+      "metadata": {
+        "canonical_slug": "apodex/apodex-1.1-mini-20261001",
+        "hugging_face_id": null,
+        "created": 1790875335,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
     {
       "provider": "openrouter",
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -759,6 +814,68 @@
     },
     {
       "provider": "openrouter",
+      "id": "particle-ai/particle-1:free",
+      "name": "Particle AI: Particle-1 (free)",
+      "description": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data...",
+      "capabilities": [
+        "multimodal_understanding",
+        "text_generation"
+      ],
+      "input_modalities": [
+        "image",
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "context_length": 1048576,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "access": {
+        "type": "hosted_free",
+        "pricing": {
+          "prompt": "0",
+          "completion": "0"
+        },
+        "limits": null
+      },
+      "classification": {
+        "basis": "provider_modality",
+        "confidence": "medium"
+      },
+      "source": {
+        "catalogue": "https://openrouter.ai/api/v1/models",
+        "model_url": "https://openrouter.ai/particle-ai/particle-1:free"
+      },
+      "metadata": {
+        "canonical_slug": "particle-ai/particle-1-20261027",
+        "hugging_face_id": null,
+        "created": 1793207893,
+        "knowledge_cutoff": null,
+        "expiration_date": null
+      }
+    },
+    {
+      "provider": "openrouter",
       "id": "recursive/flint-v1.0:free",
       "name": "Recursive: Flint (free)",
       "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
@@ -813,7 +930,7 @@
       "provider": "openrouter",
       "id": "thinkingmachines/inkling-2-small:free",
       "name": "Thinking Machines: Inkling 2 Small (free)",
-      "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
+      "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
       "capabilities": [
         "multimodal_understanding",
         "text_generation"
@@ -855,7 +972,7 @@
       },
       "metadata": {
         "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
-        "hugging_face_id": null,
+        "hugging_face_id": "thinkingmachines/Inkling-2-Small",
         "created": 1794261847,
         "knowledge_cutoff": null,
         "expiration_date": null
