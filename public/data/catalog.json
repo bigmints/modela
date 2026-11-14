@@ -1,71 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T02:16:25.789Z",
-  "catalogue_hash": "6cfb3a1e74ab16d0cf2cb5b45b2f749ee1615e4fd700ae70759bec2199932c5a",
-  "model_count": 18,
+  "generated_at": "2026-11-14T02:15:49.028Z",
+  "catalogue_hash": "b7dbffacef23d1cb53a3838d7ab553b60cacadee185ddde81a999f4aa132de85",
+  "model_count": 17,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 475,
-      "accepted": 18
+      "discovered": 471,
+      "accepted": 17
     }
   ],
   "models": [
-    {
-      "provider": "openrouter",
-      "id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-      "capabilities": [
-        "text_generation"
-      ],
-      "input_modalities": [
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 262144,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/apodex/apodex-1.1-mini:free"
-      },
-      "metadata": {
-        "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-        "hugging_face_id": null,
-        "created": 1790875335,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
     {
       "provider": "openrouter",
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -432,29 +377,27 @@
     },
     {
       "provider": "openrouter",
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+      "id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
       "capabilities": [
+        "multimodal_understanding",
         "text_generation"
       ],
       "input_modalities": [
+        "image",
         "text"
       ],
       "output_modalities": [
         "text"
       ],
-      "context_length": 65536,
+      "context_length": 1048576,
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logprobs",
-        "max_completion_tokens",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "reasoning",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -463,7 +406,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "access": {
@@ -480,14 +422,14 @@
       },
       "source": {
         "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free"
+        "model_url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free"
       },
       "metadata": {
-        "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-        "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-        "created": 1786470519,
+        "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+        "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+        "created": 1794591958,
         "knowledge_cutoff": null,
-        "expiration_date": "2026-11-13"
+        "expiration_date": null
       }
     },
     {
