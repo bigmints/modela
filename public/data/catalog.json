@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T02:15:40.083Z",
-  "catalogue_hash": "d2d3af4815506582838b221da3bcd8ed5b1834082bb23411ccd19de395c3adcd",
-  "model_count": 15,
+  "generated_at": "2026-11-22T02:15:42.299Z",
+  "catalogue_hash": "04f4607cb1f3eba39ddf2e60b398579d66bfe0645287599ccf192875ba37549d",
+  "model_count": 14,
   "sources": [
     {
       "source": "openrouter",
-      "discovered": 477,
-      "accepted": 15
+      "discovered": 476,
+      "accepted": 14
     }
   ],
   "models": [
@@ -60,58 +60,6 @@
         "created": 1794333533,
         "knowledge_cutoff": null,
         "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "dots-studio/dots-3-note-preview:free",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-      "capabilities": [
-        "multimodal_understanding",
-        "text_generation"
-      ],
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 512000,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/dots-studio/dots-3-note-preview:free"
-      },
-      "metadata": {
-        "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
-        "hugging_face_id": "dots-studio/dots3-note-prev",
-        "created": 1786680361,
-        "knowledge_cutoff": null,
-        "expiration_date": "2026-12-31"
       }
     },
     {
