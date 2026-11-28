@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T02:15:31.420Z",
-  "catalogue_hash": "04f4607cb1f3eba39ddf2e60b398579d66bfe0645287599ccf192875ba37549d",
-  "model_count": 14,
+  "generated_at": "2026-11-28T02:16:11.076Z",
+  "catalogue_hash": "1c8ef1bcc7a17b34b21f8447f0c13d23a578479efacbb4b8b04485df842c0cb2",
+  "model_count": 13,
   "models": [
     {
       "provider": "openrouter",
@@ -259,63 +259,6 @@
         "canonical_slug": "google/lyria-3-pro-preview-20260330",
         "hugging_face_id": null,
         "created": 1774907286,
-        "knowledge_cutoff": null,
-        "expiration_date": null
-      }
-    },
-    {
-      "provider": "openrouter",
-      "id": "inclusionai/ling-3.2-flash:free",
-      "name": "inclusionAI: Ling 3.2 Flash (free)",
-      "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
-      "capabilities": [
-        "multimodal_understanding",
-        "text_generation"
-      ],
-      "input_modalities": [
-        "image",
-        "text"
-      ],
-      "output_modalities": [
-        "text"
-      ],
-      "context_length": 1048576,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "access": {
-        "type": "hosted_free",
-        "pricing": {
-          "prompt": "0",
-          "completion": "0"
-        },
-        "limits": null
-      },
-      "classification": {
-        "basis": "provider_modality",
-        "confidence": "medium"
-      },
-      "source": {
-        "catalogue": "https://openrouter.ai/api/v1/models",
-        "model_url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free"
-      },
-      "metadata": {
-        "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
-        "hugging_face_id": "inclusionAI/Ling-3.2-flash",
-        "created": 1794591958,
         "knowledge_cutoff": null,
         "expiration_date": null
       }
